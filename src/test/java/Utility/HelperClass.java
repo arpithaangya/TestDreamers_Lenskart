@@ -12,7 +12,7 @@ import org.testng.internal.ClassHelper;
 public class HelperClass {
 	
 	private static WebDriver driver;
-	private static WebDriverWait wait;
+	public static WebDriverWait wait;
 	private static HelperClass helperClass;
 	
 	public final static int TIMEOUT =10;
