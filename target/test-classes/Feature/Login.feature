@@ -1,5 +1,6 @@
 Feature: Login page 
 
+@ValidCredentials
 Scenario: Checking credentials on Login
 
 Given  Login page URL of Lenskart
@@ -17,8 +18,26 @@ And User enters password
 And User clicks login 
 Then User will login or fails
 
+@InvalidCredentials
+Scenario: Checking credentials on Login
+
+Given  Login page URL of Lenskart
+When User enters username 
+
+				|email  	                 | 
+				| apps.123@gmail.com  	   | 
+				
+
+And user clicks next
+And User enters password
+												 |password	       |
+												 | Sunflower123	   |
+						
+And User clicks login 
+Then User will login or fails
 
 
+#
 #@ForgotPassword
 #Scenario: Checking Forgot password
 #

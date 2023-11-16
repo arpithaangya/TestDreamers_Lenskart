@@ -1,10 +1,12 @@
 package Definitions;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import Actions.LoginPage;
 import Locators.LoginLoc;
@@ -19,10 +21,9 @@ LoginLoc loc = new LoginLoc();
 LoginPage action = new LoginPage();
 
 @Given("Login page URL of Lenskart")
-public void login_page_url_of_lenskart() {
+public void login_page_url_of_lenskart() throws InterruptedException {
 	HelperClass.openPage("https://www.lenskart.com/");
-	//action.closeAlert();
-	
+	action.waitimplicit();
 	action.signBtn();
 }
 
@@ -34,8 +35,11 @@ public void user_enters_username(io.cucumber.datatable.DataTable dataTable) {
 }
 
 @When("user clicks next")
-public void user_clicks_next() {
+public void user_clicks_next() throws InterruptedException {
 	action.clicklogin();
+	
+		action.waitimplicit();
+
 }
 
 @When("User enters password")
@@ -51,9 +55,12 @@ public void user_clicks_login() {
 }
 
 @Then("User will login or fails")
-public void user_will_login_or_fails() {
+public void user_will_login_or_fails() throws InterruptedException {
    
+
 	
+	//	action.logout();
+      
 	
 }
 

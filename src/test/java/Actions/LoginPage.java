@@ -4,9 +4,12 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
+import javax.swing.plaf.basic.BasicSliderUI.ActionScroller;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
 import Locators.LoginLoc;
@@ -36,6 +39,11 @@ public class LoginPage {
 			}
 		}
 		
+		public void waitimplicit() throws InterruptedException {
+			Thread.sleep(1000);
+			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		}
+		
 		public void emailpass(io.cucumber.datatable.DataTable dataTable) {
 			
 			List<Map<String,String>> signup = dataTable.asMaps(String.class,String.class);
@@ -43,11 +51,23 @@ public class LoginPage {
 			{
 				String password = form.get("password");
 				System.out.println("Password :" +password);
-				loc.email.sendKeys(password);
+				loc.password.sendKeys(password);
 			}
 		}
-
-			public void close() {
+		
+		
+		public void logout() throws InterruptedException {
+				Actions act = new Actions(driver);
+				
+			     act.moveToElement(loc.profilename).perform();
+			    Thread.sleep(10000);
+			    act.moveToElement(loc.logout).click().build().perform();				
+			}
+			
+			
+			
+			public void close() throws InterruptedException {
+			
 				Alert alert = driver.switchTo().alert();
 				alert.dismiss();
 			}
