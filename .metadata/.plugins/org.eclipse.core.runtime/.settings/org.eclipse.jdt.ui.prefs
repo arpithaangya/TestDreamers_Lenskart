@@ -2,8 +2,11 @@ content_assist_favorite_static_members=org.testng.Assert.*
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
+<<<<<<< HEAD
+=======
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+>>>>>>> 28799ff334ecfaa63d1c1913fa4b77420fd72ed0
 org.eclipse.jdt.ui.formatterprofiles.version=23
 spelling_locale_initialized=true
 typefilter_migrated_2=true
