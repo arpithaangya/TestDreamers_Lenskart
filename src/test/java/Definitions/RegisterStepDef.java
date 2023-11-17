@@ -42,6 +42,6 @@ public class RegisterStepDef {
 	@Then("User should be able to register successfully")
 	public void user_should_be_able_to_register_successfully() {
 		Assert.assertTrue(objRegister.getWelcomePageText().contains("Eyeglasses"));
-		System.out.println("sucessfull login");
+		System.out.println("Successfully registered");
 	}
 }
