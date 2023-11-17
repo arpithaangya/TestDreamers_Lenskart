@@ -46,6 +46,6 @@ public class ComputerGlassStepDef {
 	@Then("User should be able to buy the product successfully")
 	public void user_should_be_able_to_buy_the_product_successfully() {
 		Assert.assertTrue(objComputer.getbilldetails().contains("Bill Details"));
-		System.out.println("sucessfull login");
+		System.out.println("Successfully bought the product");
 	}
 }
