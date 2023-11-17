@@ -11,8 +11,10 @@ public class LoginLoc {
 	
 	@FindBy(name="emailOrPhone")
 	public WebElement email;
+	
 	@FindBy(id="remove-button") public WebElement login;
-	@FindBy(id="//*[@id=\"sign-in-form\"]/div/div[2]/div[3]/div[1]/input")public WebElement password;
+	
+	@FindBy(xpath="//input[@placeholder=\"Enter Password\"]")public WebElement password;
 	
 	@FindBy(xpath="//*[@id=\"header\"]/div[2]/div/div[3]/div[2]")public WebElement profile;
 	@FindBy(xpath="//*[@id=\"sign-in-form\"]/div/div[2]/div[4]/button")public WebElement forgot;
@@ -20,4 +22,12 @@ public class LoginLoc {
 	@FindBy(xpath="//div/div/div/div/div/div[2]/div[1]/input") WebElement email1;
 	@FindBy(id="remove-button") WebElement link;
 	
+	@FindBy(xpath="//*[@id=\"sign-in-form\"]/div/div[2]/div[2]/div[2]")
+	public WebElement error;
+	
+	@FindBy(xpath="//*[@id=\"header\"]/div[2]/div/div[3]/div[2]")
+	public WebElement profilename;
+	
+	@FindBy(xpath="//a[text()='Logout']")
+	public WebElement logout;
 }
