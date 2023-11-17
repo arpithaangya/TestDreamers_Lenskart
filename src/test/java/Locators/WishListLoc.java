@@ -10,7 +10,7 @@ public class WishListLoc {
 	public WebElement Specs;
 	@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
 	public WebElement Wishlist;
-	@FindBy(xpath= "//a[@class='ClearButton--1ohs5m2 hDMYeE']")
+	@FindBy(xpath= "//div[@id='wishlistView']/div[3]/a")
 	public WebElement Clearlist;
 	
 }

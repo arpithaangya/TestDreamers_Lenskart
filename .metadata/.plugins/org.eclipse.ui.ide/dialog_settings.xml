@@ -7,7 +7,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+<<<<<<< HEAD
+			<item value="C:\Users\dmulinti\TestDreamers_Lenskart"/>
+=======
 			<item value="C:\Users\osaravanakarthikeyan\TestDreamers_Lenskart"/>
+>>>>>>> 28799ff334ecfaa63d1c1913fa4b77420fd72ed0
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

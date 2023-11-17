@@ -6,12 +6,6 @@ public class EyeGlassesLoc {
 	@FindBy(xpath = "//a[@id='lrd1']")
 	public WebElement eyeglasses;
 	
-//	@FindBy(xpath = "//div[@class='GenderBox--1lhazic cFsEaE']//child::span[text()='Women']")
-//	public WebElement women;
-//	
-//	@FindBy(xpath = "//span[text()='PREMIUM EYEGLASSES']")
-//	public WebElement premiumnEyeglasses ;
-//	
 	@FindBy(xpath = "//*[@id=\"next\"]/div[2]/div/div[1]/div[2]/div/div/div[3]/a/div")
 	public WebElement Viewrange;
 	
