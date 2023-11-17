@@ -28,13 +28,9 @@ public void user_clicks_the_eyeglasses_category() {
    
 }
 
-<<<<<<< HEAD
-@When("User clicks the product")
-public void user_clicks_the_product() {
-=======
 @When("User clicks product")
 public void user_clicks_product() {
->>>>>>> 8cecd09de1e1bd3c6baaa969425d01bd9602e91d
+
 	wishaction.Specs();
    
 }
