@@ -30,4 +30,11 @@ public class LoginLoc {
 	
 	@FindBy(xpath="//a[text()='Logout']")
 	public WebElement logout;
+	
+	@FindBy(xpath="//*[@id=\"sign-in-form\"]/div/div[2]/div[4]/button") public WebElement forgotpwd;
+	
+	@FindBy(xpath="//*[@id=\"next\"]/div[2]/div/div/div/div/div/div[2]/div[1]/input") public WebElement linkemail;
+	@FindBy(id="remove-button") public WebElement linksend;
+	
+	
 }

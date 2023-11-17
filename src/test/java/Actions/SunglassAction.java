@@ -3,6 +3,7 @@ package Actions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import Locators.SearchLocator;
 import Locators.SunglassLocator;
@@ -18,14 +19,6 @@ public class SunglassAction {
 	
 	public void sunglass() {
 		act.moveToElement(sunglassloc.sunglass).click().build().perform();
-	}
-	
-	public void men() {
-		//act.moveToElement(sunglassloc.men);
-	}
-	
-	public void classic() {
-		//act.moveToElement(sunglassloc.classic).click().build().perform();;
 	}
 	
 	public void range() {
@@ -54,15 +47,19 @@ public class SunglassAction {
 	}
 	
 	public void lenscolor() {
-		sunglassloc.lenscolor.click();;
+		sunglassloc.lenscolor.click();
 	}
 	
 	public void contbutton() {
-		sunglassloc.contbutton.click();;
+		sunglassloc.contbutton.click();
 	}
 	
 	public void ckeckout() {
-		sunglassloc.checkout.click();;
+		sunglassloc.checkout.click();
+	}
+	
+	public void bill() {
+		Assert.assertEquals(sunglassloc.bill.getText(), "Bill Details");
 	}
 	
 
