@@ -1,8 +1,9 @@
-package Utility;
+package Definitions;
 
 
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import Utility.HelperClass;
 import io.cucumber.java.After;
 public class HookLogin {
 	@Before
