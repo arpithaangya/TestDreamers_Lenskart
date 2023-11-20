@@ -18,7 +18,8 @@ public class AccountAction {
 	public AccountAction() {
 		this.accloc =  new AccountLocator();
 		this.loc = new LoginLoc();
-		PageFactory.initElements(HelperClass.getDriver(), loc);	
+		PageFactory.initElements(HelperClass.getDriver(), accloc);	
+		PageFactory.initElements(HelperClass.getDriver(), loc);
 		}
 	
 	public void pop() {
@@ -53,6 +54,10 @@ public class AccountAction {
 			System.out.println("Password :" +password);
 			loc.password.sendKeys(password);
 		}
+	}
+	public void profileset() {
+             loc.profile.click();
+             accloc.myorder.click();
 	}
 	
 

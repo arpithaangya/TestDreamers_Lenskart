@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class AccountLocator {
 	
+	
+	
 	@FindBy(xpath="//button[@id='wzrk-cancel']")
 	public WebElement pop;
 	
@@ -19,6 +21,12 @@ public class AccountLocator {
 	
 	@FindBy(xpath="//input[@type='password']")
 	 WebElement password;
+	
+	@FindBy(xpath="//a[text()='MyOrders']")
+	public WebElement myorder;
+	
+
+	//(//div[@class='ActionLink--q9i2mm hBIltA'])[2]
 	
 	
 	

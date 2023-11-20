@@ -14,7 +14,7 @@ public class AccountDefinitions {
 	public void launching_the_lenskart_webpage() throws InterruptedException {
 		HelperClass.openPage("https://www.lenskart.com/");
 		Thread.sleep(3000);
-		//action.signbtn();
+		action.pop();
 	}
 
 	@When("User enters valid username")
@@ -22,7 +22,7 @@ public class AccountDefinitions {
 		action.signbtn();
 		action.emailData(dataTable);
 	}
-
+  
 	@When("user clicks the next for login")
 	public void user_clicks_the_next_for_login() {
 		action.clicksignin();
@@ -35,6 +35,8 @@ public class AccountDefinitions {
 
 	@When("User clicks the login button")
 	public void user_clicks_the_login_button() {
-		// action.clicklogin();
+		 action.clicksignin();
+		 action.profileset();
+		
 	}
 }
