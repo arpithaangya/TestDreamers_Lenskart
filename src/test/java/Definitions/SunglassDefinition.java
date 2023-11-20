@@ -3,25 +3,33 @@ package Definitions;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.logging.log4j.Logger;
+
 import Actions.SunglassAction;
 import Utility.HelperClass;
+import Utility.Utility;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class SunglassDefinition {
+	Utility obj = new Utility();
+	String strUrl;
+	Logger log ;
 	SunglassAction sunact = new SunglassAction();
 	
 
 @Given("launch the webpage of lenskart")
 public void launch_the_webpage_of_lenskart() {
-	HelperClass.openPage("https://www.lenskart.com/");
+	HelperClass.openPage(obj.strUrl);
+	log.info("launched the url");
 	String parentWindow= HelperClass.getDriver().getWindowHandle();
 }
 	
 @When("Hover the mouse to sunglasses and click")
 public void hover_the_mouse_to_sunglasses_and_click() {
-    sunact.sunglass();}
+    sunact.sunglass();
+    }
 
 	@When("check the variety of sunglasss")
 	public void check_the_variety_of_sunglasss() {
@@ -61,12 +69,14 @@ public void hover_the_mouse_to_sunglasses_and_click() {
 
 	@When("click the power")
 	public void click_the_power() {
-		sunact.power();
+		sunact.lens();
 	}
 
 	@When("choose the color for sunglass")
 	public void choose_the_color_for_sunglass() {
-		sunact.lenscolor();
+		sunact.lenselect();
+		sunact.lenscolor();                                     //need to check
+		sunact.coating();
 	}
 
 	@When("click the continue")

@@ -16,3 +16,15 @@ And User enters valid password
 												 | Sunflower123	   |
 						
 And User clicks the login button
+
+And user clicks the user account 
+And user clicks the My orders
+And again clicks the user account
+And user clicks the my prescription
+And user clicks the store credit
+
+And user clicks the account information
+Then asserting the value of first name
+
+
+
