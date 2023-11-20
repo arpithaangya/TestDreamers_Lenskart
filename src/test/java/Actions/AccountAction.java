@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import Locators.AccountLocator;
 import Locators.LoginLoc;
@@ -56,9 +57,63 @@ public class AccountAction {
 		}
 	}
 	public void profileset() {
-             loc.profile.click();
-             accloc.myorder.click();
+            act.moveToElement(loc.profilename).click().build().perform();
+            
 	}
+	public void myorder() {
+		act.moveToElement(accloc.myorder).click().build().perform();
+
+	}
+	
+	public void profile() {
+		act.moveToElement(accloc.profile).click().build().perform();
+
+	}
+	
+	public void prescription() {
+		 act.moveToElement(accloc.account).click().build().perform();
+
+	}
+	
+	public void accinfo() {
+		act.moveToElement(accloc.accinfo).click().build().perform();
+
+	}
+	
+	public void store() {
+		act.moveToElement(accloc.store).click().build().perform();
+
+	}
+	
+	
+	
+	public void outlog() {
+		act.moveToElement(accloc.outlog).click().build().perform();
+
+	}
+	
+	public void accassert() {
+		
+		System.out.println(accloc.valuecheck.getAttribute("value"));
+    Assert.assertEquals(accloc.valuecheck.getAttribute("value"), "arpitha");
+      
+	}
+	
+	
+           
+            
+            //act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.account).click().build().perform();
+//            
+//            act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.store).click().build().perform();
+//            
+//            act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.accinfo).click().build().perform();
+//            
+//            act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.outlog).click().build().perform();
+	
 	
 
 }

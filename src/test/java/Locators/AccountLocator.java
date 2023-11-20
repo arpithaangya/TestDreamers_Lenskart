@@ -22,11 +22,40 @@ public class AccountLocator {
 	@FindBy(xpath="//input[@type='password']")
 	 WebElement password;
 	
-	@FindBy(xpath="//a[text()='MyOrders']")
+//	@FindBy(xpath="(//div[@class='ActionLink--q9i2mm hBIltA'])[2]")
+//	public WebElement profile;
+	
+	
+	
+	@FindBy(xpath="//a[@href='/customer/account']")
 	public WebElement myorder;
 	
+	@FindBy(xpath="(//a[@href='/customer/prescriptions/'])[1]")
+	public WebElement account;
+	
+	@FindBy(xpath="//div[@class='login-panel']")
+	public WebElement profile;
+	
+	@FindBy(xpath="(//a[@href='/customer/account/storecredit/'])[2]")
+	public WebElement store;
+	
+	@FindBy(xpath="(//a[@href='/customer/account/edit/'])[2]")
+	public WebElement accinfo;
+	
+	@FindBy(xpath="//input[@name='firstName']")
+	public WebElement valuecheck;
+	
+	@FindBy(xpath="//button[@class='btn btn-success fs12 uppercase text-color-white font-bold']")
+	public WebElement outlog;
+	
+	
+	
+	
+	
+	
+	
 
-	//(//div[@class='ActionLink--q9i2mm hBIltA'])[2]
+	
 	
 	
 	

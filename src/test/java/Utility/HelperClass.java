@@ -3,17 +3,22 @@ package Utility;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.internal.ClassHelper;
 
+import Definitions.SearchDefition;
+
 public class HelperClass {
 	
 	private static WebDriver driver;
 	public static WebDriverWait wait;
 	private static HelperClass helperClass;
+	public static Logger log ;
 	
 	public final static int TIMEOUT =10;
 	
@@ -22,6 +27,7 @@ public class HelperClass {
 		wait = new WebDriverWait(driver,Duration.ofSeconds(TIMEOUT));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 		driver.manage().window().maximize();
+		log = LogManager.getLogger(SearchDefition.class);
 	}
 	
 	public static void openPage(String url) {
