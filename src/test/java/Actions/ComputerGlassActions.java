@@ -21,7 +21,6 @@ public class ComputerGlassActions {
 		computerGlassLocators.computerglasses.click();
 	}
 	public void clicksortby() {
-		//computerGlassLocators.sortby.click();
 		Select select = new Select(computerGlassLocators.sortby);
 		select.selectByIndex(5);
 	}
@@ -37,8 +36,15 @@ public class ComputerGlassActions {
 	}
 	public String getbilldetails() {
 		return computerGlassLocators.billdetails.getText();
+		//return computerGlassLocators.lenstype.getText();
 	}
-//	public void computer() {
-//		
-//	}
+	public void clickremove() {
+		computerGlassLocators.remove.click();
+	}
+	public void clickyesremove() {
+		computerGlassLocators.yesremove.click();
+	}
+	public String getcartdetails() {
+		return computerGlassLocators.emptycart.getText();
+	}
 }
