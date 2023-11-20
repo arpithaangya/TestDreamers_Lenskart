@@ -13,18 +13,19 @@ public class AccountDefinitions {
 	@Given("Launching the lenskart webpage")
 	public void launching_the_lenskart_webpage() throws InterruptedException {
 		HelperClass.openPage("https://www.lenskart.com/");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		//action.signbtn();
 	}
 
 	@When("User enters valid username")
 	public void user_enters_valid_username(DataTable dataTable) {
+		action.signbtn();
 		action.emailData(dataTable);
 	}
 
 	@When("user clicks the next for login")
 	public void user_clicks_the_next_for_login() {
-		//action.clickNext();
+		action.clicksignin();
 	}
 
 	@When("User enters valid password")

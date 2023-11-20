@@ -22,11 +22,11 @@ public class AccountAction {
 		}
 	
 	public void pop() {
-	  act.moveToElement(accloc.pop).click().build().perform();
+	 loc.alertsign.click();
 	}
 	
 	public void signbtn() {
-		act.moveToElement(loc.signin).click().build().perform();
+		loc.signin.click();
 	}
 	
 	public void emailData(DataTable dataTable) {
@@ -40,8 +40,8 @@ public class AccountAction {
 		}
 	}
 	
-	public void clickNext() {
-          //loc.clicknext.click();
+	public void clicksignin() {
+            loc.login.click();
 	}
 	
 	public void emailPass(DataTable dataTable) {
