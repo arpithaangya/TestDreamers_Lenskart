@@ -11,6 +11,7 @@ import org.testng.Assert;
 import Actions.LoginPage;
 import Locators.LoginLoc;
 import Utility.HelperClass;
+import Utility.Utility;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,7 +20,7 @@ public class LoginDef {
 WebDriver driver;
 LoginLoc loc = new LoginLoc();
 LoginPage action = new LoginPage();
-
+Utility objUt = new Utility();
 @Given("Login page URL of Lenskart")
 public void login_page_url_of_lenskart() throws InterruptedException {
 	HelperClass.openPage("https://www.lenskart.com/");
@@ -49,44 +50,47 @@ public void user_enters_password(io.cucumber.datatable.DataTable dataTable) {
 	
 }
 
-@When("User clicks login")
-public void user_clicks_login() {
+@When("User clicks login and goes to home")
+public void user_clicks_login() throws InterruptedException {
    action.clicklogin();
+   action.checkLog();
+   action.close();
 }
 
-@Then("User will login or fails")
+@Then("User will logout")
 public void user_will_login_or_fails() throws InterruptedException {
    
-
-	
-	//	action.logout();
-      
-	
+   action.logout();
 }
 
 @Given("goes to Lenskart URL")
-public void goes_to_lenskart_url() {
-  
+public void goes_to_lenskart_url() throws InterruptedException {
+	  HelperClass.openPage(objUt.strUrl);
+	  action.signBtn();
 }
 
 @When("User enters email1 or phone number")
 public void user_enters_email1_or_phone_number() {
-
+	action.email(objUt.stremail);
 }
 
 @When("clicks next")
-public void clicks_next() {
-   
+public void clicks_next() throws InterruptedException {
+	action.clicklogin();
+	
+	action.waitimplicit();
+
 }
 
 @When("clicks on forgot password")
-public void clicks_on_forgot_password() {
- 
+public void clicks_on_forgot_password() throws InterruptedException {
+ action.clickemail2(objUt.stremail);
+ action.waitimplicit();
 }
 
 @Then("User clicks to send link for reset")
 public void user_clicks_to_send_link_for_reset() {
-
+ action.send();
 }
 
 
