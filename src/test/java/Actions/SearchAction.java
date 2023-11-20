@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import Locators.SearchLocator;
 import Utility.HelperClass;
@@ -63,5 +64,30 @@ public class SearchAction {
 	public static void lens() {
 		searchlocator.lens.click();
 	}
+	
+	public static void lensselect() {
+		searchlocator.lensselect.click();
+	}
+	
+	public static void premiumlens() {
+		searchlocator.premiumlens.click();
+	}
+	
+	public static void coating() {
+		searchlocator.coating.click();
+	}
+	
+	public void cont() {
+		searchlocator.cont.click();
+	}
+	
+	public  void outcheck() {
+		searchlocator.outcheck.click();
+	}
+	
+	public  void asbill() {
+		Assert.assertEquals(searchlocator.asbill.getText(), "Bill Details");
+	}
+	
 
 }

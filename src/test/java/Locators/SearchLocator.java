@@ -19,11 +19,31 @@ public class SearchLocator {
 	@FindBy(xpath= "//select[@class='SelectBox--1nxe8z9 eSxoXu']")
 	public WebElement searchsort;
 	
-	@FindBy(xpath= "//a[@href='/john-jacobs-jj-e13557-c3-eyeglasses.html']")
+	@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
 	public WebElement product;
 	
 	@FindBy(xpath= "//button[@id='btn-primary']")
 	public WebElement lens;
+	
+	@FindBy(xpath= "//div[text()='Single Vision']")
+	public WebElement lensselect;
+	
+	@FindBy(xpath= "//div[text()='AntiGlare Premium']")
+	public WebElement premiumlens;
+	
+	@FindBy(xpath= "//div[text()='Skip Coating']")
+	public WebElement coating;
+	
+	@FindBy(xpath= "//div[@class='Text--b3mxso dWjjQS btnContinue']")
+	public WebElement cont;
+	
+	@FindBy(xpath= "//button[@id='button']")
+	public WebElement outcheck;
+	
+	@FindBy(xpath= "//div[@class='CartStyles__HeadingText-sc-14bvp3n-6 bFjeHX']")
+	public  WebElement asbill;
+	
+
 	
 	
 	
