@@ -5,9 +5,13 @@ Feature: feature of lenskart
   Scenario: checking the eyeglasses category of lenskart
     Given User opens the lenskart webpage
     When User clicks the eyeglasses
-    And User clicks the view range
-    And User sorts the product by price:low to high
+    And User sorts the product by price:high to low
     And Filter the frame type by full rim
-    Then Asserting the frame type to full rim
+    And Filter the frame shape by aviator
+    And User add the product to the wishlist
+    And user clicking the wishlist option 
+    And user clicking the product in the wishlist
+    And user clicking buy now option
+    Then Asserting the Total payable
     
  

@@ -16,5 +16,7 @@ public class ServicesLoc {
 	public WebElement Framesize ;
 	@FindBy(xpath ="//h1[text()='How to know your Face Size?']")
 	public WebElement Facesize ;
+	@FindBy(xpath ="//h1[text()='Buy The Best Eyewear From Lenskart']")
+	public static WebElement Samepage ;
 
 }

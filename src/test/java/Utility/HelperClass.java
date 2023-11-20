@@ -3,22 +3,24 @@ package Utility;
 
 import java.time.Duration;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.internal.ClassHelper;
 
 public class HelperClass {
 	
 	private static WebDriver driver;
 	public static WebDriverWait wait;
 	private static HelperClass helperClass;
+	public static JavascriptExecutor jse ;
 	
 	public final static int TIMEOUT =10;
 	
 	HelperClass(){
 		driver = new EdgeDriver();
+		jse = (JavascriptExecutor)driver;
 		wait = new WebDriverWait(driver,Duration.ofSeconds(TIMEOUT));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 		driver.manage().window().maximize();

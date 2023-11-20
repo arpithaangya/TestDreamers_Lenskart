@@ -1,9 +1,11 @@
 package Definitions;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import Actions.EyeGlassesAct;
 import Actions.WishListAct;
+import Locators.WishListLoc;
 import Utility.HelperClass;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -30,7 +32,6 @@ public void user_clicks_the_eyeglasses_category() {
 
 @When("User clicks product")
 public void user_clicks_product() {
-
 	wishaction.Specs();
    
 }
@@ -41,6 +42,20 @@ public void user_adds_to_wish_list() {
   
 }
 
+
+@When("User clicks the second product")
+public void user_clicks_the_second_product() {
+   wishaction.Specs1();
+}
+
+@When("User adding the second product in wishlist")
+public void user_adding_the_second_product_in_wishlist() {
+  wishaction.Wishlist1();
+}
+
+
+
+
 @When("User Clears the WishList")
 public void user_clears_the_wish_list() {
 	wishaction.Clearlist();
@@ -49,11 +64,8 @@ public void user_clears_the_wish_list() {
 
 @Then("Asserting the WishList")
 public void asserting_the_wish_list() {
+//	Assert.assertEquals(WishListLoc.AssertWishlist.getText(),"");
   
 }
-
-
-
-
 
 }
