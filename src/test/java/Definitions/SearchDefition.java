@@ -6,10 +6,12 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import Actions.LoginPage;
 import Actions.SearchAction;
 import Locators.LoginLoc;
+import Locators.SunglassLocator;
 import Utility.HelperClass;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
@@ -78,11 +80,35 @@ public class SearchDefition {
 	public void user_clicks_the_select_lens() {
 	   sa.lens();
 	}
+	
+	@When("user clicks the select lens type")
+	public void user_clicks_the_select_lens_type() {
+	   sa.lensselect();
+	}
 
+	@When("user clicks the select premium lens")
+	public void user_clicks_the_select_premium_lens() {
+	   sa.premiumlens();
+	}
 
-	@Then("asserting the product user searched")
-	public void asserting_the_product_user_searched() {
-	   System.out.println("working");
+	@When("user clicks the select lens coating.")
+	public void user_clicks_the_select_lens_coating() {
+	   sa.coating();
+	}
+	
+	@When("user click the continue")
+	public void user_click_the_continue() {
+	      sa.cont();
+	}
+
+	@When("user click the checkout glass")
+	public void user_click_the_checkout_glass() {
+		sa.outcheck();
+	}
+
+	@Then("asserting the product user selected with details")
+	public void asserting_the_product_user_selected_with_details() {
+		sa.asbill();
 	}
 }
 

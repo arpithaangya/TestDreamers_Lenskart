@@ -30,10 +30,16 @@ public class WishListAct {
 	   wishlistLocators.Wishlist.click();
 	}
 	public void Clearlist() {
+<<<<<<< HEAD
 
 
 		HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
 		action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
+=======
+       wishlistLocators.Clearlist.click();
+       HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
+	   action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
+>>>>>>> 529c7578e128ac74a73738952d7ab0c3d582d6a1
 
 	}
 }
