@@ -36,13 +36,13 @@ public class SunglassLocator {
 	public WebElement lenscolor;
 	
 	@FindBy(xpath= "//button[@class='PackageButton--16tnmu6 fXfipK']")
-	public WebElement contbutton;
+	public  WebElement contbutton;
 	
 	@FindBy(xpath= "//button[@id='button']")
-	public WebElement checkout;
+	public  WebElement checkout;
 	
 	@FindBy(xpath= "//div[@class='CartStyles__HeadingText-sc-14bvp3n-6 bFjeHX']")
-	public WebElement bill;
+	public  WebElement bill;
 	
 	
 	
