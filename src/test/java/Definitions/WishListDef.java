@@ -30,10 +30,6 @@ public void user_clicks_the_eyeglasses_category() {
 
 @When("User clicks product")
 public void user_clicks_product() {
-<<<<<<< HEAD
-=======
-
->>>>>>> 529c7578e128ac74a73738952d7ab0c3d582d6a1
 	wishaction.Specs();
    
 }
