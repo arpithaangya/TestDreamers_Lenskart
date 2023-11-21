@@ -18,17 +18,17 @@ And User enters password
 And User clicks login and goes to home
 Then User will logout
 
-#
-#
-#
-#@ForgotPassword
-#Scenario: Checking Forgot password
-#
-#Given goes to Lenskart URL
-#When User enters email1 or phone number
-#And clicks next
-#And clicks on forgot password
-#Then User clicks to send link for reset
+
+
+
+@ForgotPassword
+Scenario: Checking Forgot password
+
+Given goes to Lenskart URL
+When User enters email1 or phone number
+And clicks next
+And clicks on forgot password
+Then User clicks to send link for reset
 
 
 

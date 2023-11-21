@@ -14,6 +14,7 @@ public class WishListLoc {
 	
 	@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
 	public WebElement Wishlist;
+
 	@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
 	public WebElement Wishlist1;
 	@FindBy(xpath="(//a[@class='CrossIcon--ho5u3n cKXlGn cross-icon'])[1]")

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import Locators.EyeGlassesLoc;
 import Locators.Follow;
@@ -40,6 +41,15 @@ public class KidsAct {
 		
 		public void fb() {
 			follow.facebook.click();
+		}
+		public void clicksortby() {
+			
+			Select select = new Select(loc.sort);
+			select.selectByIndex(3);
+		}
+		public String checkassert() {
+			return loc.select.getText();
+			
 		}
 		
 }
