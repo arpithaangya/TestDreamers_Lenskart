@@ -18,13 +18,17 @@ public class SearchLocator {
 	
 	@FindBy(xpath= "//select[@class='SelectBox--1nxe8z9 eSxoXu']")
 	public WebElement searchsort;
+<<<<<<< HEAD
 
 
 	//@FindBy(xpath= "//a[@href='/john-jacobs-jj-e13553-c5-eyeglasses.html']")
+=======
+>>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 
 	//@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
 
 
+<<<<<<< HEAD
 
 
 		
@@ -35,6 +39,8 @@ public class SearchLocator {
 
 
 
+=======
+>>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 	public WebElement product;
 	
 	@FindBy(xpath= "//button[@id='btn-primary']")
