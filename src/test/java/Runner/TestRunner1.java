@@ -11,14 +11,14 @@ package Runner;
 // 
 //@RunWith(Cucumber.class)
 //
-//@CucumberOptions(tags="",features={"src\\test\\resources\\Feature\\search.feature","src\\test\\resources\\Feature\\account.feature","src\\test\\resources\\Feature\\categorysunglass.feature"},glue ="Definitions",plugin= {"json:target/cucumber-report.json"})
+//@CucumberOptions(tags="",features={"src\\test\\resources\\Feature\\search.feature","src\\test\\resources\\Feature\\account.feature","src\\test\\resources\\Feature\\categorysunglass.feature"},glue ="Definitions",plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",})
 //
 //
 //
 //
 // 
 //
-//public class Runner extends AbstractTestNGCucumberTests {
+//public class Runner {
 //	
 //
 //}
@@ -32,7 +32,7 @@ import io.cucumber.testng.CucumberOptions;
  
 @CucumberOptions(plugin = "json:target/cucumber-report.json",features={"src\\test\\resources\\Feature\\search.feature","src\\test\\resources\\Feature\\account.feature","src\\test\\resources\\Feature\\categorysunglass.feature"},
 glue="Definitions")
-public class Runner extends AbstractTestNGCucumberTests {
+public class TestRunner1 extends AbstractTestNGCucumberTests {
 	@Override
 	@DataProvider(parallel = true)
 	public Object[][] scenarios() {

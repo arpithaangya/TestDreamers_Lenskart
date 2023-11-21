@@ -246,3 +246,12 @@
 [INFO ] 2023-11-21 13:52:15.580 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-21 13:52:15.592 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-21 13:52:15.821 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:17:43.580 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:17:43.580 [TestNG-PoolService-1] LoginDef - launched the url
+[INFO ] 2023-11-21 15:17:57.117 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 15:25:00.061 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:36:36.535 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:36:57.649 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 15:36:57.649 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 15:37:23.154 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 15:37:23.155 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
