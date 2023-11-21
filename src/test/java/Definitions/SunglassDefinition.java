@@ -3,7 +3,7 @@ package Definitions;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.logging.log4j.Logger;
+
 
 import Actions.SunglassAction;
 import Utility.HelperClass;
@@ -15,14 +15,14 @@ import io.cucumber.java.en.When;
 public class SunglassDefinition {
 	Utility obj = new Utility();
 	String strUrl;
-	Logger log ;
+	HelperClass base;
 	SunglassAction sunact = new SunglassAction();
 	
 
 @Given("launch the webpage of lenskart")
 public void launch_the_webpage_of_lenskart() {
 	HelperClass.openPage(obj.strUrl);
-	log.info("launched the url");
+	base.log.info("launched the url");
 	String parentWindow= HelperClass.getDriver().getWindowHandle();
 }
 	
@@ -34,11 +34,13 @@ public void hover_the_mouse_to_sunglasses_and_click() {
 	@When("check the variety of sunglasss")
 	public void check_the_variety_of_sunglasss() {
 		sunact.range();
+		base.log.info("iterate the product list for 20");
 	}
 	
 	@When("click the range")
 	public void click_the_range() {
 		sunact.seller();
+		base.log.info("if page changed with range page then we have use this function");
 		
 		
 	}
@@ -64,6 +66,7 @@ public void hover_the_mouse_to_sunglasses_and_click() {
 		Set<String> allWindows = HelperClass.getDriver().getWindowHandles();
 		for(String curWindow : allWindows){
 			HelperClass.getDriver().switchTo().window(curWindow);
+			base.log.info("switched to another tab");
 		}
 	}
 
@@ -71,11 +74,19 @@ public void hover_the_mouse_to_sunglasses_and_click() {
 	public void click_the_power() {
 		sunact.lens();
 	}
-
-	@When("choose the color for sunglass")
-	public void choose_the_color_for_sunglass() {
+	
+	@When("choose the lens for sunglass")
+	public void choose_the_lens_for_sunglass() {
 		sunact.lenselect();
-		sunact.lenscolor();                                     //need to check
+	}
+
+	@When("choose the lens color for sunglass")
+	public void choose_the_lens_color_for_sunglass() {
+		sunact.lenscolor();
+	}
+
+	@When("choose the color coating for sunglass")
+	public void choose_the_color_coating_for_sunglass() {
 		sunact.coating();
 	}
 
