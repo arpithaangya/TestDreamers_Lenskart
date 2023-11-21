@@ -1,8 +1,10 @@
 package Actions;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import javax.swing.plaf.basic.BasicSliderUI.ActionScroller;
 
@@ -44,7 +46,7 @@ public class LoginPage {
 		}
 		
 		public void waitimplicit() throws InterruptedException {
-			Thread.sleep(1000);
+			 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		}
 		
@@ -64,16 +66,25 @@ public class LoginPage {
 			System.out.println(name);
 		
 		}
+		public String profilename() {
+			String name =loc.profile.getText();
+			return name;
+		}
 		public void logout() throws InterruptedException {
 				
 			    action.moveToElement(loc.profilename).build().perform();
-			    Thread.sleep(5000);
-			    action.moveToElement(loc.logout).click().build().perform();				
+			    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			    action.moveToElement(loc.logout).click().build().perform();		
+			    
+			    driver.navigate().refresh();
 			}
 			
       public void close() throws InterruptedException {
-				Alert alert = driver.switchTo().alert();
-				alert.dismiss();
+//				Alert alert = driver.switchTo().alert();
+//				alert.dismiss();
+				
+				   loc.no.click();
+		    	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			}
 			
 	  public void clicklogin() {
@@ -98,4 +109,39 @@ public class LoginPage {
 	  public void send() {
 		  loc.linksend.click();
 	  }
+	  public String checklinksent() {
+		return loc.linkassert.getText();
+		
+			  
+	 }
+	  
+		public void fb2() {
+			loc.facebook2.click();
+		}
+		public void twitter() {
+			loc.twitter.click();
+		}
+		public void insta() {
+			loc.instagram.click();
+		}
+		public String changetab() {
+			
+		String title = null;
+       String parentWindow= HelperClass.getDriver().getWindowHandle();
+		
+			Set<String> allWindows = HelperClass.getDriver().getWindowHandles();
+					for(String curWindow : allWindows){
+						if(curWindow != parentWindow)
+						{
+							HelperClass.getDriver().switchTo().window(curWindow);
+							title = driver.getTitle();
+						}
+						
+					}
+
+			HelperClass.getDriver().switchTo().window(parentWindow);
+           return title;
+		}
+		
+		
 }

@@ -27,10 +27,39 @@ public class WishListAct {
 	public void Wishlist() {
 	   wishlistLocators.Wishlist.click();
 	}
+	public void Specs1() {
+	       wishlistLocators.Specs2.click();
+	}
+	public void Wishlist1() {
+	       wishlistLocators.Specs.click();
+	}
+	public void Removeproduct1() {
+	       wishlistLocators.Removeproduct1.click();
+	}
+	
 	public void Clearlist() {
+<<<<<<< HEAD
+
+
+
+		HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
+		action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
+=======
+<<<<<<< HEAD
+	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
+      HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
+
+=======
+>>>>>>> 8b13bc37926866fdedd285402c2ac9fdd39e83db
 
        wishlistLocators.Clearlist.click();
        HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
 	   action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> ddcb22b0d6198e4620b0941ab58902e8b60ab824
+>>>>>>> 8b13bc37926866fdedd285402c2ac9fdd39e83db
 	}
 }

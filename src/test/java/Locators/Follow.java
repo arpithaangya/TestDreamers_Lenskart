@@ -5,6 +5,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class Follow {
 	
-	@FindBy(xpath="//*[@id=\"footerContent\"]/div[3]/div/div/div/a[1]/div/svg") public WebElement facebook;
+	@FindBy(xpath="//a[@href='https://www.facebook.com/Lenskartindia']") public WebElement facebook;
 	
 }
