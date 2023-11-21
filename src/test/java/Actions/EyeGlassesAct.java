@@ -20,27 +20,42 @@ public class EyeGlassesAct {
 		public void eyeglasses() {
 			eyeglassesLocators.eyeglasses.click();
 		}
-	    public void viewrange() {
-			eyeglassesLocators.Viewrange.click();
+//	    public void viewrange() {
+//			eyeglassesLocators.Viewrange.click();
 	    	
-	    }
-//	        action.moveToElement(eyeglassesLocators.eyeglasses);
-		
-//	    public void women() {
-//			action.moveToElement(eyeglassesLocators.women);
-//		}
-//		public void premiumnEyeglasses() {
-////			HelperClass.wait.until(ExpectedConditions.elementToBeClickable(eyeglassesLocators.premiumnEyeglasses));
-//			action.moveToElement(eyeglassesLocators.premiumnEyeglasses).click().perform();;
-//		}
-		public void sortby() {
+//	    }
+        public void sortby() {
 			Select select = new Select(eyeglassesLocators.sortby);
 			select.selectByIndex(2);
 		}
 		public void frametype() {
 			eyeglassesLocators.frametype.click();
 		}
- 
+		public void frameshape() {
+			eyeglassesLocators.frameshape.click();
+		}
+//		public void framecolour() {
+//			eyeglassesLocators.framecolour.click();
+//		}
+		public void  AddWishlist() {
+			eyeglassesLocators. AddWishlist.click();
+		}
+		public void ClickWishlist() {
+			eyeglassesLocators.ClickWishlist.click();
+		}
+		public void ClickProduct() {
+			eyeglassesLocators.ClickProduct.click();
+			 HelperClass.jse.executeScript("arguments[0].click()",eyeglassesLocators.ClickProduct);
+		}
+		public void  Buynow() throws InterruptedException {
+			Thread.sleep(5000);
+			eyeglassesLocators.Buynow.click();
+  		 HelperClass.jse.executeScript("arguments[0].click()",eyeglassesLocators.Buynow);
+		}
+//		public String getTotalpayable() {
+//			return eyeglassesLocators.Totalpayable.getText();
+//		}
+// 
 	
 }
 

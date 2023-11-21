@@ -17,7 +17,7 @@ public String stremail;
 		login2();
 	}
 	public void login2(){
-		File file = new File("C:\\Users\\ashekharangya\\Git Lenskart\\TestDreamers_Lenskart\\src\\test\\resources\\LoginData.properties");
+		File file = new File("src\\test\\resources\\LoginData.properties");
 		FileInputStream fileInput = null;
 		try {
 			fileInput = new FileInputStream(file);

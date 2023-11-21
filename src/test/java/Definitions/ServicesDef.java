@@ -1,8 +1,11 @@
 package Definitions;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import Actions.ServicesAct;
+import Locators.ServicesLoc;
+import Locators.WishListLoc;
 import Utility.HelperClass;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -53,6 +56,8 @@ public void asserting_the_frame_size_page() {
 
 @Then("Asserting the feature")
 public void asserting_the_feature() {
+	Assert.assertEquals(ServicesLoc.Samepage.getText(),"Buy The Best Eyewear From Lenskart");
+  
    
 }
 

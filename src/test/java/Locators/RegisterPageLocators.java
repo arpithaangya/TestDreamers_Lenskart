@@ -4,6 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class RegisterPageLocators {
+	
+	@FindBy(xpath = "//div[@class='wzrk-alert wiz-show-animate']")
+	public WebElement popup;
+	
+	@FindBy(id="wzrk-cancel")
+	public WebElement nothanks;
 
 	@FindBy(xpath="//div[@class='ActionLink--q9i2mm hBIltA']//child::span[contains(text(),'Sign Up')]")
 	public WebElement signup;

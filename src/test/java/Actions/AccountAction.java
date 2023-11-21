@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import Locators.AccountLocator;
 import Locators.LoginLoc;
@@ -18,15 +19,16 @@ public class AccountAction {
 	public AccountAction() {
 		this.accloc =  new AccountLocator();
 		this.loc = new LoginLoc();
-		PageFactory.initElements(HelperClass.getDriver(), loc);	
+		PageFactory.initElements(HelperClass.getDriver(), accloc);	
+		PageFactory.initElements(HelperClass.getDriver(), loc);
 		}
 	
 	public void pop() {
-	  act.moveToElement(accloc.pop).click().build().perform();
+	 loc.alertsign.click();
 	}
 	
 	public void signbtn() {
-		act.moveToElement(loc.signin).click().build().perform();
+		loc.signin.click();
 	}
 	
 	public void emailData(DataTable dataTable) {
@@ -40,8 +42,8 @@ public class AccountAction {
 		}
 	}
 	
-	public void clickNext() {
-          //loc.clicknext.click();
+	public void clicksignin() {
+            loc.login.click();
 	}
 	
 	public void emailPass(DataTable dataTable) {
@@ -54,6 +56,64 @@ public class AccountAction {
 			loc.password.sendKeys(password);
 		}
 	}
+	public void profileset() {
+            act.moveToElement(loc.profilename).click().build().perform();
+            
+	}
+	public void myorder() {
+		act.moveToElement(accloc.myorder).click().build().perform();
+
+	}
+	
+	public void profile() {
+		act.moveToElement(accloc.profile).click().build().perform();
+
+	}
+	
+	public void prescription() {
+		 act.moveToElement(accloc.account).click().build().perform();
+
+	}
+	
+	public void accinfo() {
+		act.moveToElement(accloc.accinfo).click().build().perform();
+
+	}
+	
+	public void store() {
+		act.moveToElement(accloc.store).click().build().perform();
+
+	}
+	
+	
+	
+	public void outlog() {
+		act.moveToElement(accloc.outlog).click().build().perform();
+
+	}
+	
+	public void accassert() {
+		
+		System.out.println(accloc.valuecheck.getAttribute("value"));
+    Assert.assertEquals(accloc.valuecheck.getAttribute("value"), "arpitha");
+      
+	}
+	
+	
+           
+            
+            //act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.account).click().build().perform();
+//            
+//            act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.store).click().build().perform();
+//            
+//            act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.accinfo).click().build().perform();
+//            
+//            act.moveToElement(accloc.profile).click().build().perform();
+//            act.moveToElement(accloc.outlog).click().build().perform();
+	
 	
 
 }
