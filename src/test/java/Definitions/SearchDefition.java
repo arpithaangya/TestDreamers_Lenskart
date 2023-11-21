@@ -39,7 +39,7 @@ public class SearchDefition {
 
 	@When("given the product name to search")
 	public void given_the_product_name_to_search() {
-	    sa.setSearch("eyeglass");
+	    sa.setSearch(obj.strinput);
 	}
 	
 	@When("given the enter")
