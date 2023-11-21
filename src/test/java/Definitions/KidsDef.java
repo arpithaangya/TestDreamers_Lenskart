@@ -13,8 +13,9 @@ public class KidsDef {
 	LoginPage login = new LoginPage();
 	//log = LogManager.getLogger(KidsAct.class);
 	@Given("Go to Url of Lenskart")
-	public void go_to_url_of_lenskart() {
+	public void go_to_url_of_lenskart() throws InterruptedException {
 		HelperClass.openPage("https://www.lenskart.com/");
+		
 	}
 
 	@When("Click on Kids Glasses")
@@ -31,7 +32,7 @@ public class KidsDef {
 
 	@Then("click on first one")
 	public void click_on_first_one() {
-		System.out.println(action.checkassert());
+	
 	   action.select();
 	   
 	}

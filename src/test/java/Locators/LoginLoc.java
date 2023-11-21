@@ -39,11 +39,15 @@ public class LoginLoc {
 	
 	
 	@FindBy(id="wzrk-cancel") public WebElement no;
-	@FindBy(xpath="//div[@class=\"SubText--1ad6igv gwDPxG\"]") public WebElement linkassert;
+//	@FindBy(xpath="//div[@class=\"SubText--1ad6igv gwDPxG\"]") public WebElement linkassert;
+	
+	@FindBy(xpath="//*[@id=\"next\"]/div[2]/div/div/div/div/div/div[2]/div[2]") public WebElement linkassert;
+	
 	
 	@FindBy(xpath="//a[@href='https://www.facebook.com/Lenskartindia']") public WebElement facebook2;
 	
 	@FindBy(xpath="//a[@href='https://instagram.com/lenskart/']") public WebElement instagram;
 	
 	@FindBy(xpath="//a[@href='https://twitter.com/lenskartME']") public WebElement twitter;
+	@FindBy(xpath = "//div[@class='wzrk-alert wiz-show-animate']") public WebElement popup;
 }
