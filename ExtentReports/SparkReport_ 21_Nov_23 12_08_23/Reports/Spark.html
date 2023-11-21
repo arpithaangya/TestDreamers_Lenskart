@@ -1,0 +1,2268 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 21, 2023 12:08:23 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@ComputerGlassesCategory</a><a class="dropdown-item" href="#">@EyeGlassescategory</a><a class="dropdown-item" href="#">@AboutUs</a><a class="dropdown-item" href="#">@MyAccount</a><a class="dropdown-item" href="#">@ValidCredentials</a><a class="dropdown-item" href="#">@Wishlist</a><a class="dropdown-item" href="#">@RegisterPage</a><a class="dropdown-item" href="#">@Searchproduct</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Check AboutUs in lenskart application</p>
+            <p class="text-sm">
+              <span>12:08:23 PM</span> / <span>00:00:05:801</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Check AboutUs in lenskart application</h5>
+<span class='badge badge-success'>11.21.2023 12:08:23 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:08:29 PM</span>
+<span class='badge badge-default'>00:00:05:801</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Checking AboutUs features in lenskart application</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="Definitions.AboutUsStepDef.user_goes_to_lenskart_webpage()">
+                <span>Given User goes to lenskart webpage</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.core.exception.CucumberException: Failed to instantiate class Definitions.AboutUsStepDef
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 45 more
+Caused by: java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.Properties.load(Properties.java:407)
+	at Utility.RegisterUtility.registerData(RegisterUtility.java:33)
+	at Utility.RegisterUtility.<init>(RegisterUtility.java:18)
+	at Definitions.AboutUsStepDef.<init>(AboutUsStepDef.java:13)
+	... 51 more
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_goes_to_about_us_and_clicks_we_are_hiring()">
+                <span>When User goes to about us and clicks We are hiring</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_should_be_able_to_see_the_we_are_hiring_page()">
+                <span>Then User should be able to see the we are hiring page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_clicks_refer_and_earn()">
+                <span>When User clicks Refer and Earn</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_should_be_able_to_see_the_refer_and_earn_page()">
+                <span>Then User should be able to see the Refer and Earn page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_clicks_about_us()">
+                <span>When User clicks About us</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_should_be_able_to_see_the_about_us_page()">
+                <span>Then User should be able to see the About us page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_clicks_lenskart_coupons()">
+                <span>When User clicks lenskart coupons</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AboutUsStepDef.user_should_be_able_to_see_the_lenskart_coupons_page()">
+                <span>Then User should be able to see the lenskart coupons page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Buy an item in lenskart application</p>
+            <p class="text-sm">
+              <span>12:08:29 PM</span> / <span>00:00:00:008</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Buy an item in lenskart application</h5>
+<span class='badge badge-success'>11.21.2023 12:08:29 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:08:29 PM</span>
+<span class='badge badge-default'>00:00:00:008</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="15"><span class="badge log fail-bg mr-2">Fail</span>Buying a computerglass item</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="Definitions.ComputerGlassStepDef.user_goes_to_the_lenskart_webpage()">
+                <span>Given User goes to the lenskart webpage</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.core.exception.CucumberException: Failed to instantiate class Definitions.ComputerGlassStepDef
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 45 more
+Caused by: java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.Properties.load(Properties.java:407)
+	at Utility.RegisterUtility.registerData(RegisterUtility.java:33)
+	at Utility.RegisterUtility.<init>(RegisterUtility.java:18)
+	at Definitions.ComputerGlassStepDef.<init>(ComputerGlassStepDef.java:15)
+	... 51 more
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_clicks_the_computerglasses()">
+                <span>When User clicks the computerglasses</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_clicks_sortby()">
+                <span>And User clicks sortby</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_clicks_the_product()">
+                <span>And User clicks the product</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_clicks_the_buy_now()">
+                <span>And User clicks the buy now</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_should_be_able_to_buy_the_product_successfully()">
+                <span>Then User should be able to buy the product successfully</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_clicks_the_remove()">
+                <span>When User clicks the remove</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_clicks_yes_remove()">
+                <span>And User clicks yes,remove</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ComputerGlassStepDef.user_should_be_able_to_see_the_cart_is_empty()">
+                <span>Then User should be able to see the cart is empty</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">feature of lenskart</p>
+            <p class="text-sm">
+              <span>12:08:29 PM</span> / <span>00:00:24:430</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">feature of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 12:08:29 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:08:54 PM</span>
+<span class='badge badge-default'>00:00:24:430</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="28"><span class="badge log fail-bg mr-2">Fail</span>checking the eyeglasses category of lenskart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.EyeGlassesDef.user_opens_the_lenskart_webpage()">
+                <span>Given User opens the lenskart webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.EyeGlassesDef.user_clicks_the_eyeglasses()">
+                <span>When User clicks the eyeglasses</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.EyeGlassesDef.user_sorts_the_product_by_price_high_to_low()">
+                <span>And User sorts the product by price:high to low</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.EyeGlassesDef.filter_the_frame_type_by_full_rim()">
+                <span>And Filter the frame type by full rim</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.EyeGlassesDef.filter_the_frame_shape_by_aviator()">
+                <span>And Filter the frame shape by aviator</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.EyeGlassesDef.user_add_the_product_to_the_wishlist()">
+                <span>And User add the product to the wishlist</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.EyeGlassesDef.user_clicking_the_wishlist_option()">
+                <span>And user clicking the wishlist option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Definitions.EyeGlassesDef.user_clicking_the_product_in_the_wishlist()">
+                <span>And user clicking the product in the wishlist</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (909, 932)
+  (Session info: MicrosoftEdge=119.0.2151.72)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b79055fcc34f6ac6269fc2fc4e06377f, clickElement {id=D3D64F443B1BC54C4C7F9D068681B7E5_element_397}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60935}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60935/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (b79055fcc34f6ac6269fc2fc4e06377f)] -> xpath: //div[@class='ItemContainer--zw71mv ikRDxY']]
+Session ID: b79055fcc34f6ac6269fc2fc4e06377f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy35.click(Unknown Source)
+	at Actions.EyeGlassesAct.ClickProduct(EyeGlassesAct.java:51)
+	at Definitions.EyeGlassesDef.user_clicking_the_product_in_the_wishlist(EyeGlassesDef.java:73)
+	at ✽.user clicking the product in the wishlist(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/EyeGlasses.feature:13)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.EyeGlassesDef.user_clicking_buy_now_option()">
+                <span>And user clicking buy now option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.EyeGlassesDef.asserting_the_total_payable()">
+                <span>Then Asserting the Total payable</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="41"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Follow page</p>
+            <p class="text-sm">
+              <span>12:08:54 PM</span> / <span>00:00:03:941</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Follow page</h5>
+<span class='badge badge-success'>11.21.2023 12:08:54 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:08:58 PM</span>
+<span class='badge badge-default'>00:00:03:941</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="42"><span class="badge log fail-bg mr-2">Fail</span>To follow on facebook</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.FollowDef.home_page_of_lenskart()">
+                <span>Given Home page of Lenskart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.FollowDef.scroll_down()">
+                <span>When Scroll Down</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Definitions.FollowDef.click_on_face_book()">
+                <span>And Click on FaceBook</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.follow.facebook" is null
+	at Actions.KidsAct.fb(KidsAct.java:42)
+	at Definitions.FollowDef.click_on_face_book(FollowDef.java:25)
+	at ✽.Click on FaceBook(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/FollowUs.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.FollowDef.goes_to_facebook_page()">
+                <span>Then Goes to Facebook page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="49"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Kids Category</p>
+            <p class="text-sm">
+              <span>12:08:58 PM</span> / <span>00:00:12:131</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Kids Category</h5>
+<span class='badge badge-success'>11.21.2023 12:08:58 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:09:10 PM</span>
+<span class='badge badge-default'>00:00:12:131</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="50"><span class="badge log pass-bg mr-2">Pass</span>To search for kids sunglasses</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.KidsDef.go_to_url_of_lenskart()">
+                <span>Given Go to Url of Lenskart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.KidsDef.click_on_kids_glasses()">
+                <span>When Click on Kids Glasses</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.KidsDef.go_to_sunglasses()">
+                <span>And Go to sunglasses</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.KidsDef.click_on_first_one()">
+                <span>Then click on first one</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="57"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login page</p>
+            <p class="text-sm">
+              <span>12:09:10 PM</span> / <span>00:00:10:099</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login page</h5>
+<span class='badge badge-success'>11.21.2023 12:09:10 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:09:20 PM</span>
+<span class='badge badge-default'>00:00:10:099</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=57</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log fail-bg mr-2">Fail</span>Checking credentials on Login</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.LoginDef.login_page_url_of_lenskart()">
+                <span>Given Login page URL of Lenskart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.LoginDef.user_enters_username(io.cucumber.datatable.DataTable)">
+                <span>When User enters username</span>
+      <div><table class='markup-table table '><tr><td>email</td></tr><tr><td>arpi.angya@gmail.com</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.LoginDef.user_clicks_next()">
+                <span>And user clicks next</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.LoginDef.user_enters_password(io.cucumber.datatable.DataTable)">
+                <span>And User enters password</span>
+      <div><table class='markup-table table '><tr><td>password</td></tr><tr><td>Sunflower123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Definitions.LoginDef.user_clicks_login()">
+                <span>And User clicks login and goes to home</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: MicrosoftEdge=119.0.2151.72)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b79055fcc34f6ac6269fc2fc4e06377f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60935}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60935/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b79055fcc34f6ac6269fc2fc4e06377f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1202)
+	at Actions.LoginPage.close(LoginPage.java:75)
+	at Definitions.LoginDef.user_clicks_login(LoginDef.java:57)
+	at ✽.User clicks login and goes to home(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/Login.feature:18)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.LoginDef.user_will_login_or_fails()">
+                <span>Then User will logout</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="67"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Register to Lenskart web application</p>
+            <p class="text-sm">
+              <span>12:09:20 PM</span> / <span>00:00:00:004</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Register to Lenskart web application</h5>
+<span class='badge badge-success'>11.21.2023 12:09:20 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:09:20 PM</span>
+<span class='badge badge-default'>00:00:00:004</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=67</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="68"><span class="badge log fail-bg mr-2">Fail</span>Registering the application with valid credentials</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="Definitions.RegisterStepDef.user_opens_the_lenskart_register_page()">
+                <span>Given User opens the Lenskart register page</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.core.exception.CucumberException: Failed to instantiate class Definitions.RegisterStepDef
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 45 more
+Caused by: java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.Properties.load(Properties.java:407)
+	at Utility.RegisterUtility.registerData(RegisterUtility.java:33)
+	at Utility.RegisterUtility.<init>(RegisterUtility.java:18)
+	at Definitions.RegisterStepDef.<init>(RegisterStepDef.java:15)
+	... 51 more
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.RegisterStepDef.user_clicks_the_signup()">
+                <span>When User clicks the signup</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.RegisterStepDef.user_enters_the_valid_credentials()">
+                <span>When User enters the valid credentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.RegisterStepDef.user_clicks_the_create_account()">
+                <span>And User clicks the createAccount</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.RegisterStepDef.user_should_be_able_to_register_successfully()">
+                <span>Then User should be able to register successfully</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="76"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">feature of lenskart</p>
+            <p class="text-sm">
+              <span>12:09:20 PM</span> / <span>00:00:16:351</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">feature of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 12:09:20 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:09:37 PM</span>
+<span class='badge badge-default'>00:00:16:351</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=76</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log fail-bg mr-2">Fail</span>Clicking the services option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.ServicesDef.user_opens_the_lenskart_webpage_and_scroll_and_find_the_services()">
+                <span>Given User opens the lenskart Webpage and scroll and find the services</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.ServicesDef.user_clicks_the_store_locator_option()">
+                <span>When User clicks the store locator option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Definitions.ServicesDef.user_clicks_the_search_option_and_giving_location()">
+                <span>And User clicks the search option and giving location</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Search by state/pincode/Locality']"}
+  (Session info: MicrosoftEdge=119.0.2151.72)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b79055fcc34f6ac6269fc2fc4e06377f, findElement {using=xpath, value=//input[@placeholder='Search by state/pincode/Locality']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60935}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60935/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b79055fcc34f6ac6269fc2fc4e06377f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy35.click(Unknown Source)
+	at Actions.ServicesAct.Search(ServicesAct.java:30)
+	at Definitions.ServicesDef.user_clicks_the_search_option_and_giving_location(ServicesDef.java:32)
+	at ✽.User clicks the search option and giving location(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/Services.feature:7)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ServicesDef.user_clicks_the_buying_guide_option()">
+                <span>And User clicks the buying guide option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ServicesDef.asserting_the_buying_guide_page()">
+                <span>And Asserting the Buying guide page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ServicesDef.user_clicks_the_frame_size_option()">
+                <span>And User clicks the frame size option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ServicesDef.asserting_the_frame_size_page()">
+                <span>And Asserting the frame size page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.ServicesDef.asserting_the_feature()">
+                <span>Then Asserting the feature</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="88"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">feature of lenskart</p>
+            <p class="text-sm">
+              <span>12:09:37 PM</span> / <span>00:00:23:391</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">feature of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 12:09:37 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:10:00 PM</span>
+<span class='badge badge-default'>00:00:23:391</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=88</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>Selecting and Buying Glasses</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.WishListDef.user_opens_the_lenskart_webpage()">
+                <span>Given User opens the lenskart Webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.WishListDef.user_clicks_the_eyeglasses_category()">
+                <span>When User clicks the eyeglasses category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.WishListDef.user_clicks_product()">
+                <span>And User clicks product</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.WishListDef.user_adds_to_wish_list()">
+                <span>And User adds to wish list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.WishListDef.user_clicks_the_second_product()">
+                <span>And User clicks the second product</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.WishListDef.user_adding_the_second_product_in_wishlist()">
+                <span>And User adding the second product in wishlist</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.WishListDef.user_clears_the_wish_list()">
+                <span>And User Clears the WishList</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.WishListDef.asserting_the_wish_list()">
+                <span>Then Asserting the WishList</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="100"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">My account of lenskart</p>
+            <p class="text-sm">
+              <span>12:10:00 PM</span> / <span>00:00:37:015</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">My account of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 12:10:00 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:10:37 PM</span>
+<span class='badge badge-default'>00:00:37:015</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=100</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="101"><span class="badge log fail-bg mr-2">Fail</span>Checking the MyAccount of lenskart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="Definitions.AccountDefinitions.launching_the_lenskart_webpage()">
+                <span>Given Launching the lenskart webpage</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#wzrk\-confirm"}
+  (Session info: MicrosoftEdge=119.0.2151.72)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b79055fcc34f6ac6269fc2fc4e06377f, findElement {using=id, value=wzrk-confirm}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60935}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60935/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b79055fcc34f6ac6269fc2fc4e06377f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy35.click(Unknown Source)
+	at Actions.AccountAction.pop(AccountAction.java:27)
+	at Definitions.AccountDefinitions.launching_the_lenskart_webpage(AccountDefinitions.java:20)
+	at ✽.Launching the lenskart webpage(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/account.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_enters_valid_username(io.cucumber.datatable.DataTable)">
+                <span>When User enters valid username</span>
+      <div><table class='markup-table table '><tr><td>email</td></tr><tr><td>arpi.angya@gmail.com</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_clicks_the_next_for_login()">
+                <span>And user clicks the next for login</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_enters_valid_password(io.cucumber.datatable.DataTable)">
+                <span>And User enters valid password</span>
+      <div><table class='markup-table table '><tr><td>password</td></tr><tr><td>Sunflower123</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_clicks_the_login_button()">
+                <span>And User clicks the login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_clicks_the_user_account()">
+                <span>And user clicks the user account</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_clicks_the_my_orders()">
+                <span>And user clicks the My orders</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.again_clicks_the_user_account()">
+                <span>And again clicks the user account</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_clicks_the_my_prescription()">
+                <span>And user clicks the my prescription</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_clicks_the_store_credit()">
+                <span>And user clicks the store credit</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.user_clicks_the_account_information()">
+                <span>And user clicks the account information</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.AccountDefinitions.asserting_the_value_of_first_name()">
+                <span>Then asserting the value of first name</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="116"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">sunglass feature of lenskart</p>
+            <p class="text-sm">
+              <span>12:10:37 PM</span> / <span>00:00:14:927</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">sunglass feature of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 12:10:37 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:10:52 PM</span>
+<span class='badge badge-default'>00:00:14:927</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=116</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="117"><span class="badge log fail-bg mr-2">Fail</span>checking the sunglass category of lenskart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="Definitions.SunglassDefinition.launch_the_webpage_of_lenskart()">
+                <span>Given launch the webpage of lenskart</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.log" is null
+	at Definitions.SunglassDefinition.launch_the_webpage_of_lenskart(SunglassDefinition.java:25)
+	at ✽.launch the webpage of lenskart(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/categorysunglass.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.hover_the_mouse_to_sunglasses_and_click()">
+                <span>When Hover the mouse to sunglasses and click</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.check_the_variety_of_sunglasss()">
+                <span>And check the variety of sunglasss</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.click_the_range()">
+                <span>And click the range</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.sort_the_product_by_price_low_to_high()">
+                <span>And Sort the product by price:low to high</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.filtering_frame_type_by_half_rim()">
+                <span>And Filtering  frame type by half rim</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.chose_the_sunglass()">
+                <span>And chose the sunglass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.switch_to_another_tab()">
+                <span>And switch to another tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.click_the_power()">
+                <span>And click the power</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.choose_the_color_for_sunglass()">
+                <span>And choose the color for sunglass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.click_the_continue()">
+                <span>And click the continue</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.user_given_the_checkout()">
+                <span>And user given the checkout</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.asserting_the_bill_details()">
+                <span>Then asserting the bill details</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="133"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">features of lenskart</p>
+            <p class="text-sm">
+              <span>12:10:52 PM</span> / <span>00:00:09:642</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">features of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 12:10:52 PM</span>
+<span class='badge badge-danger'>11.21.2023 12:11:02 PM</span>
+<span class='badge badge-default'>00:00:09:642</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=133</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="134"><span class="badge log fail-bg mr-2">Fail</span>checking the search product of lenskart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="Definitions.SearchDefition.launching_the_lenskart()">
+                <span>Given launching the lenskart</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.log" is null
+	at Definitions.SearchDefition.launching_the_lenskart(SearchDefition.java:36)
+	at ✽.launching the lenskart(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/search.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_product_name_to_search()">
+                <span>And given the product name to search</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_enter()">
+                <span>And given the enter</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_filter_for_frame_shape()">
+                <span>And given the filter for frame shape</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_filter_for_frame_size()">
+                <span>And given the filter for frame size</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_filter_for_frame_type()">
+                <span>And given the filter for frame type</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_sort_for_result_high_to_low()">
+                <span>And given the sort for result high to low</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_selects_the_eyeglass()">
+                <span>And user selects the eyeglass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.switch_to_newly_opened_tab()">
+                <span>And switch to newly opened tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_lens()">
+                <span>And user clicks the select lens</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_lens_type()">
+                <span>And user clicks the select lens type</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_premium_lens()">
+                <span>And user clicks the select premium lens</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_lens_coating()">
+                <span>And user clicks the select lens coating.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_click_the_continue()">
+                <span>And user click the continue</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_click_the_checkout_glass()">
+                <span>And user click the checkout glass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.asserting_the_product_user_selected_with_details()">
+                <span>Then asserting the product user selected with details</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">5</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">io.cucumber.core.exception.CucumberException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>io.cucumber.core.exception.CucumberException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:08:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='4'>Given User goes to lenskart webpage</a>
+<div class="">
+<span class="badge badge-default">Check AboutUs in lenskart application.Checking AboutUs features in lenskart application.Given User goes to lenskart webpage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:08:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='17'>Given User goes to the lenskart webpage</a>
+<div class="">
+<span class="badge badge-default">Buy an item in lenskart application.Buying a computerglass item.Given User goes to the lenskart webpage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:09:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='67' id='70'>Given User opens the Lenskart register page</a>
+<div class="">
+<span class="badge badge-default">Register to Lenskart web application.Registering the application with valid credentials.Given User opens the Lenskart register page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoAlertPresentException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoAlertPresentException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:09:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='57' id='64'>And User clicks login and goes to home</a>
+<div class="">
+<span class="badge badge-default">Login page.Checking credentials on Login.And User clicks login and goes to home</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:08:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='46'>And Click on FaceBook</a>
+<div class="">
+<span class="badge badge-default">Follow page.To follow on facebook.And Click on FaceBook</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:10:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='116' id='119'>Given launch the webpage of lenskart</a>
+<div class="">
+<span class="badge badge-default">sunglass feature of lenskart.checking the sunglass category of lenskart.Given launch the webpage of lenskart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='133' id='136'>Given launching the lenskart</a>
+<div class="">
+<span class="badge badge-default">features of lenskart.checking the search product of lenskart.Given launching the lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:09:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='76' id='81'>And User clicks the search option and giving location</a>
+<div class="">
+<span class="badge badge-default">feature of lenskart.Clicking the services option.And User clicks the search option and giving location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:10:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='100' id='103'>Given Launching the lenskart webpage</a>
+<div class="">
+<span class="badge badge-default">My account of lenskart.Checking the MyAccount of lenskart.Given Launching the lenskart webpage</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:08:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='37'>And user clicking the product in the wishlist</a>
+<div class="">
+<span class="badge badge-default">feature of lenskart.checking the eyeglasses category of lenskart.And user clicking the product in the wishlist</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">8</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ComputerGlassesCategory</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ComputerGlassesCategory</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:08:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='15'>Buying a computerglass item</a>
+<div class="">
+<span class="badge badge-default">Buy an item in lenskart application.Buying a computerglass item</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@EyeGlassescategory</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@EyeGlassescategory</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:08:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='28'>checking the eyeglasses category of lenskart</a>
+<div class="">
+<span class="badge badge-default">feature of lenskart.checking the eyeglasses category of lenskart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:10:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='116' id='117'>checking the sunglass category of lenskart</a>
+<div class="">
+<span class="badge badge-default">sunglass feature of lenskart.checking the sunglass category of lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@AboutUs</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@AboutUs</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:08:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Checking AboutUs features in lenskart application</a>
+<div class="">
+<span class="badge badge-default">Check AboutUs in lenskart application.Checking AboutUs features in lenskart application</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@MyAccount</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MyAccount</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:10:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='100' id='101'>Checking the MyAccount of lenskart</a>
+<div class="">
+<span class="badge badge-default">My account of lenskart.Checking the MyAccount of lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ValidCredentials</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ValidCredentials</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:09:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='57' id='58'>Checking credentials on Login</a>
+<div class="">
+<span class="badge badge-default">Login page.Checking credentials on Login</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Wishlist</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Wishlist</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:09:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='76' id='77'>Clicking the services option</a>
+<div class="">
+<span class="badge badge-default">feature of lenskart.Clicking the services option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='88' id='89'>Selecting and Buying Glasses</a>
+<div class="">
+<span class="badge badge-default">feature of lenskart.Selecting and Buying Glasses</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@RegisterPage</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RegisterPage</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:09:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='67' id='68'>Registering the application with valid credentials</a>
+<div class="">
+<span class="badge badge-default">Register to Lenskart web application.Registering the application with valid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Searchproduct</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Searchproduct</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='133' id='134'>checking the search product of lenskart</a>
+<div class="">
+<span class="badge badge-default">features of lenskart.checking the search product of lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 21, 2023 12:08:23 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 21, 2023 12:11:02 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>10</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='16%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='83%'><b>10</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='16%'><b>2</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='83%'><b>10</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'><b>27</b> steps passed</small></div>
+<div>
+<small data-tooltip='9%'><b>10</b> steps failed,
+<b>67</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Check AboutUs in lenskart application":5.801,"Buy an item in lenskart application":0.008,"feature of lenskart":24.43,"Follow page":3.941,"Kids Category":12.131,"Login page":10.099,"Register to Lenskart web application":0.004,"feature of lenskart":16.351,"feature of lenskart":23.391,"My account of lenskart":37.015,"sunglass feature of lenskart":14.927,"features of lenskart":9.642
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@ComputerGlassesCategory</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@EyeGlassescategory</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@AboutUs</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@MyAccount</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@ValidCredentials</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Wishlist</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@RegisterPage</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Searchproduct</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>version</td>
+<td>10</td>
+</tr>
+<tr>
+<td>os</td>
+<td>windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 10,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 2,
+failChild: 10,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 27,
+failGrandChild: 10,
+warningGrandChild: 0,
+skipGrandChild: 67,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

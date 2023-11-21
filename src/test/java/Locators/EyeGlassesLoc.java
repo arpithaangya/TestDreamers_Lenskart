@@ -23,16 +23,16 @@ public class EyeGlassesLoc {
 //	@FindBy(xpath="//*[@id=\"frame_color_id\"]/div[2]/div/div[1]/label/div")
 //	public WebElement framecolour;
 //	
-	@FindBy(xpath="(//div[@class='WishlistContainer--1jtgryj idWPeU']//*[name()='svg' and @xmlns='http://www.w3.org/2000/svg'])[1]")
+	@FindBy(xpath="(//div[@class=\"WishlistContainer--1jtgryj idWPeU\"])[1]")
 	public WebElement AddWishlist;
 	
 	@FindBy(xpath="//div[@class='ActionLink--q9i2mm hBIltA'][3]")
 	public WebElement ClickWishlist;
 	
-	@FindBy(xpath="//div[@class='ProductDetailsContainer--5tx9a5 kskdFK']")
+	@FindBy(xpath="//div[@class='ItemContainer--zw71mv ikRDxY']")
 	public WebElement ClickProduct;
 	
-	@FindBy(xpath="//button[@id='btn-primary']")
+	@FindBy(xpath="//button[@id='btn-primary'][1]")
 	public WebElement Buynow;
 	
 	@FindBy(xpath = "//div[@class='Text--v1spdc dCEHEJ'][2]")
