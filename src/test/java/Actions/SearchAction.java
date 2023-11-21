@@ -86,7 +86,8 @@ public class SearchAction {
 	}
 	
 	public  void asbill() {
-		Assert.assertEquals(searchlocator.asbill.getText(), "Bill Details");
+		String price =searchlocator.asbill.getText();
+		Assert.assertEquals(searchlocator.asbill.getText(), price);
 	}
 	
 

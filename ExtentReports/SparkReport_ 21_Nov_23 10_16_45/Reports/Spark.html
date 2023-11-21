@@ -1,0 +1,851 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 21, 2023 10:16:44 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@MyAccount</a><a class="dropdown-item" href="#">@Searchproduct</a><a class="dropdown-item" href="#">@EyeGlassescategory</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">My account of lenskart</p>
+            <p class="text-sm">
+              <span>10:16:45 AM</span> / <span>00:00:46:865</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">My account of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 10:16:45 AM</span>
+<span class='badge badge-danger'>11.21.2023 10:17:32 AM</span>
+<span class='badge badge-default'>00:00:46:865</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Checking the MyAccount of lenskart</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.launching_the_lenskart_webpage()">
+                <span>Given Launching the lenskart webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_enters_valid_username(io.cucumber.datatable.DataTable)">
+                <span>When User enters valid username</span>
+      <div><table class='markup-table table '><tr><td>email</td></tr><tr><td>arpi.angya@gmail.com</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_clicks_the_next_for_login()">
+                <span>And user clicks the next for login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_enters_valid_password(io.cucumber.datatable.DataTable)">
+                <span>And User enters valid password</span>
+      <div><table class='markup-table table '><tr><td>password</td></tr><tr><td>Sunflower123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_clicks_the_login_button()">
+                <span>And User clicks the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_clicks_the_user_account()">
+                <span>And user clicks the user account</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_clicks_the_my_orders()">
+                <span>And user clicks the My orders</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.again_clicks_the_user_account()">
+                <span>And again clicks the user account</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_clicks_the_my_prescription()">
+                <span>And user clicks the my prescription</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_clicks_the_store_credit()">
+                <span>And user clicks the store credit</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.user_clicks_the_account_information()">
+                <span>And user clicks the account information</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Definitions.AccountDefinitions.asserting_the_value_of_first_name()">
+                <span>Then asserting the value of first name</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">sunglass feature of lenskart</p>
+            <p class="text-sm">
+              <span>10:17:32 AM</span> / <span>00:00:12:375</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">sunglass feature of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 10:17:32 AM</span>
+<span class='badge badge-danger'>11.21.2023 10:17:44 AM</span>
+<span class='badge badge-default'>00:00:12:375</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log fail-bg mr-2">Fail</span>checking the sunglass category of lenskart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="Definitions.SunglassDefinition.launch_the_webpage_of_lenskart()">
+                <span>Given launch the webpage of lenskart</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "this.log" is null
+	at Definitions.SunglassDefinition.launch_the_webpage_of_lenskart(SunglassDefinition.java:25)
+	at ✽.launch the webpage of lenskart(file:///C:/Users/pkannan2/LenskartPilotProject1/TestDreamers_Lenskart/src/test/resources/Feature/categorysunglass.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.hover_the_mouse_to_sunglasses_and_click()">
+                <span>When Hover the mouse to sunglasses and click</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.check_the_variety_of_sunglasss()">
+                <span>And check the variety of sunglasss</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.click_the_range()">
+                <span>And click the range</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.sort_the_product_by_price_low_to_high()">
+                <span>And Sort the product by price:low to high</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.filtering_frame_type_by_half_rim()">
+                <span>And Filtering  frame type by half rim</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.chose_the_sunglass()">
+                <span>And chose the sunglass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.switch_to_another_tab()">
+                <span>And switch to another tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.click_the_power()">
+                <span>And click the power</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.choose_the_color_for_sunglass()">
+                <span>And choose the color for sunglass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.click_the_continue()">
+                <span>And click the continue</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.user_given_the_checkout()">
+                <span>And user given the checkout</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SunglassDefinition.asserting_the_bill_details()">
+                <span>Then asserting the bill details</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">features of lenskart</p>
+            <p class="text-sm">
+              <span>10:17:44 AM</span> / <span>00:00:13:228</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">features of lenskart</h5>
+<span class='badge badge-success'>11.21.2023 10:17:44 AM</span>
+<span class='badge badge-danger'>11.21.2023 10:17:57 AM</span>
+<span class='badge badge-default'>00:00:13:228</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log fail-bg mr-2">Fail</span>checking the search product of lenskart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Definitions.SearchDefition.launching_the_lenskart()">
+                <span>Given launching the lenskart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Definitions.SearchDefition.given_the_product_name_to_search()">
+                <span>And given the product name to search</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy35.sendKeys(Unknown Source)
+	at Actions.SearchAction.setSearch(SearchAction.java:30)
+	at Definitions.SearchDefition.given_the_product_name_to_search(SearchDefition.java:42)
+	at ✽.given the product name to search(file:///C:/Users/pkannan2/LenskartPilotProject1/TestDreamers_Lenskart/src/test/resources/Feature/search.feature:7)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_enter()">
+                <span>And given the enter</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_filter_for_frame_shape()">
+                <span>And given the filter for frame shape</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_filter_for_frame_size()">
+                <span>And given the filter for frame size</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_filter_for_frame_type()">
+                <span>And given the filter for frame type</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.given_the_sort_for_result_high_to_low()">
+                <span>And given the sort for result high to low</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_selects_the_eyeglass()">
+                <span>And user selects the eyeglass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.switch_to_newly_opened_tab()">
+                <span>And switch to newly opened tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_lens()">
+                <span>And user clicks the select lens</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_lens_type()">
+                <span>And user clicks the select lens type</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_premium_lens()">
+                <span>And user clicks the select premium lens</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_clicks_the_select_lens_coating()">
+                <span>And user clicks the select lens coating.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_click_the_continue()">
+                <span>And user click the continue</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.user_click_the_checkout_glass()">
+                <span>And user click the checkout glass</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Definitions.SearchDefition.asserting_the_product_user_selected_with_details()">
+                <span>Then asserting the product user selected with details</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.IllegalArgumentException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.IllegalArgumentException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:17:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='38'>And given the product name to search</a>
+<div class="">
+<span class="badge badge-default">features of lenskart.checking the search product of lenskart.And given the product name to search</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:17:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='20'>Given launch the webpage of lenskart</a>
+<div class="">
+<span class="badge badge-default">sunglass feature of lenskart.checking the sunglass category of lenskart.Given launch the webpage of lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@MyAccount</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MyAccount</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Checking the MyAccount of lenskart</a>
+<div class="">
+<span class="badge badge-default">My account of lenskart.Checking the MyAccount of lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Searchproduct</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Searchproduct</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:17:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='35'>checking the search product of lenskart</a>
+<div class="">
+<span class="badge badge-default">features of lenskart.checking the search product of lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@EyeGlassescategory</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@EyeGlassescategory</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:17:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='18'>checking the sunglass category of lenskart</a>
+<div class="">
+<span class="badge badge-default">sunglass feature of lenskart.checking the sunglass category of lenskart</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 21, 2023 10:16:44 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 21, 2023 10:17:57 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='66%'><b>2</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'><b>1</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='66%'><b>2</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='31%'><b>13</b> steps passed</small></div>
+<div>
+<small data-tooltip='4%'><b>2</b> steps failed,
+<b>26</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"My account of lenskart":46.865,"sunglass feature of lenskart":12.375,"features of lenskart":13.228
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@MyAccount</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Searchproduct</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@EyeGlassescategory</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>version</td>
+<td>10</td>
+</tr>
+<tr>
+<td>os</td>
+<td>windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 1,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 13,
+failGrandChild: 2,
+warningGrandChild: 0,
+skipGrandChild: 26,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

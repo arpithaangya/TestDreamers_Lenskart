@@ -38,18 +38,29 @@ public class WishListAct {
 	}
 	
 	public void Clearlist() {
+
+
+
+<<<<<<< HEAD
+=======
+
+		HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
+		action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
+
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
+	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
+      HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
+
+
 <<<<<<< HEAD
 
 
 
 
-		HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
-		action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
-
-	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
-      HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
 
 
+
+=======
 
        wishlistLocators.Clearlist.click();
        HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
@@ -61,5 +72,6 @@ public class WishListAct {
       HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
 
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 	}
 }

@@ -18,10 +18,16 @@ public class SearchLocator {
 	
 	@FindBy(xpath= "//select[@class='SelectBox--1nxe8z9 eSxoXu']")
 	public WebElement searchsort;
-<<<<<<< HEAD
+
 
 
 	//@FindBy(xpath= "//a[@href='/john-jacobs-jj-e13553-c5-eyeglasses.html']")
+<<<<<<< HEAD
+
+	
+
+
+=======
 =======
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 
@@ -29,11 +35,18 @@ public class SearchLocator {
 
 
 <<<<<<< HEAD
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 
 
 		
 //	@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
 
+<<<<<<< HEAD
+
+	@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
+
+
+=======
 
 	//@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
 
@@ -41,6 +54,7 @@ public class SearchLocator {
 
 =======
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 	public WebElement product;
 	
 	@FindBy(xpath= "//button[@id='btn-primary']")
@@ -61,7 +75,7 @@ public class SearchLocator {
 	@FindBy(xpath= "//button[@id='button']")
 	public WebElement outcheck;
 	
-	@FindBy(xpath= "//div[@class='CartStyles__HeadingText-sc-14bvp3n-6 bFjeHX']")
+	@FindBy(xpath= "//div[@class='BreakUp--1nl0c86 gNLysE']//child::div[@class='Text--v1spdc dCEHEJ']//following-sibling::div")
 	public  WebElement asbill;
 	
 

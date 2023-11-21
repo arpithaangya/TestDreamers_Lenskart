@@ -31,30 +31,34 @@ public class AccountAction {
 		loc.signin.click();
 	}
 	
-	public void emailData(DataTable dataTable) {
+	public void emailData( String email) {
 		
-		List<Map<String,String>> signup = dataTable.asMaps(String.class,String.class);
-		for(Map<String,String> form : signup) 
-		{
-			String username = form.get("email");
-			System.out.println("Username :" +username);
-			loc.email.sendKeys(username);
-		}
+		loc.email.sendKeys(email);
+		
+//		List<Map<String,String>> signup = dataTable.asMaps(String.class,String.class);
+//		for(Map<String,String> form : signup) 
+//		{
+//			String username = form.get("email");
+//			System.out.println("Username :" +username);
+//			loc.email.sendKeys(username);
+//		}
 	}
 	
 	public void clicksignin() {
             loc.login.click();
 	}
 	
-	public void emailPass(DataTable dataTable) {
+	public void emailPass(String password) {
 		
-		List<Map<String,String>> signup = dataTable.asMaps(String.class,String.class);
-		for(Map<String,String> form : signup) 
-		{
-			String password = form.get("password");
-			System.out.println("Password :" +password);
-			loc.password.sendKeys(password);
-		}
+		loc.password.sendKeys(password);
+		
+//		List<Map<String,String>> signup = dataTable.asMaps(String.class,String.class);
+//		for(Map<String,String> form : signup) 
+//		{
+//			String password = form.get("password");
+//			System.out.println("Password :" +password);
+//			loc.password.sendKeys(password);
+//		}
 	}
 	public void profileset() {
             act.moveToElement(loc.profilename).click().build().perform();

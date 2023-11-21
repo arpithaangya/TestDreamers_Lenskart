@@ -12,7 +12,9 @@ Feature: sunglass feature of lenskart
      And chose the sunglass
      And switch to another tab
      And click the power
-     And choose the color for sunglass
+     And choose the lens for sunglass
+      And choose the lens color for sunglass
+      And choose the color coating for sunglass
      And click the continue
      And user given the checkout
      Then asserting the bill details

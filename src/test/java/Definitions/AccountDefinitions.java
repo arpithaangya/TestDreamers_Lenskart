@@ -1,8 +1,15 @@
 package Definitions;
 
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
 import Actions.AccountAction;
 import Utility.HelperClass;
 import Utility.Utility;
+import Utility.UtilityXlsheet;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,6 +18,7 @@ import io.cucumber.java.en.When;
 public class AccountDefinitions {
 	AccountAction action = new AccountAction();
 	Utility obj = new Utility();
+	UtilityXlsheet fil = new UtilityXlsheet();
 	String strUrl;
 	
 	@Given("Launching the lenskart webpage")
@@ -20,10 +28,19 @@ public class AccountDefinitions {
 		action.pop();
 	}
 
-	@When("User enters valid username")
-	public void user_enters_valid_username(DataTable dataTable) {
+	@When("User enters valid username sheetname  {string} and rownumber {int}")
+	public void user_enters_valid_username_sheetname_and_rownumber(String sheetname, Integer int1) throws InvalidFormatException, IOException {
 		action.signbtn();
-		action.emailData(dataTable);
+	List<Map<String,String>> testdata=fil.getData("src\\test\\resources\\userinput.xlsx", sheetname);
+	String email1 = testdata.get(int1).get("email");
+	
+	action.emailData(email1);
+	
+	
+	
+	
+		//action.signbtn();
+		//action.emailData(dataTable);
 	}
   
 	@When("user clicks the next for login")
@@ -31,9 +48,13 @@ public class AccountDefinitions {
 		action.clicksignin();
 	}
 
-	@When("User enters valid password")
-	public void user_enters_valid_password(DataTable dataTable) {
-		action.emailPass(dataTable);
+	@When("User enters valid password sheetname  {string} and rownumber {int}")
+	public void user_enters_valid_password_sheetname_and_rownumber(String sheetname, Integer int1) throws InvalidFormatException, IOException {
+		List<Map<String,String>> testdata=fil.getData("src\\test\\resources\\userinput.xlsx", sheetname);
+		
+		String pass = testdata.get(int1).get("password");
+		action.emailPass(pass);
+		//action.emailPass(dataTable);
 	}
 
 	@When("User clicks the login button")

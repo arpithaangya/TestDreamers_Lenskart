@@ -24,7 +24,11 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
+<<<<<<< HEAD
+			<version>4.14.1</version>
+=======
 			<version>${selenium.version}</version>
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -44,7 +48,11 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
+<<<<<<< HEAD
+			<version>7.8.0</version>
+=======
 			<version>${testng.version}</version>
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 		</dependency>
  
 		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
@@ -80,17 +88,27 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 		<!--<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.14.0</version>
 		</dependency>-->
 =======
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.14.0</version>
 		</dependency>
+<<<<<<< HEAD
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		
+=======
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -115,6 +133,7 @@
 =======
 		</dependency>
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -176,11 +195,15 @@
 						<target>${maven.compiler.target.version}</target>
 					</configuration>
 				</plugin>
+<<<<<<< HEAD
+				
+=======
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${maven.surefire.plugin.version}</version>
 				</plugin>
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
@@ -197,7 +220,11 @@
 		</pluginManagement>
 	</build>
 <<<<<<< HEAD
+	</project>
+=======
+<<<<<<< HEAD
 =======
   
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 </project>
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6

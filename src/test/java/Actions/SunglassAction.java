@@ -1,5 +1,9 @@
 package Actions;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -22,6 +26,12 @@ public class SunglassAction {
 	}
 	
 	public void range() {
+		List<WebElement> productList = HelperClass.getDriver().findElements(By.xpath("//div[@class='ProductContainer--jvh5co geQZLk']"));
+		for (WebElement list :productList) {
+			for (int i=0;i<=20;i++) {
+			System.out.println(list.getText());
+			}
+		}
 		
 	}
 	
