@@ -14,17 +14,15 @@ public class WishListLoc {
 	
 	@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
 	public WebElement Wishlist;
-<<<<<<< HEAD
 
 
-	@FindBy(xpath= "//div[@id='wishlistView']/div[3]/a")
 
-	public WebElement Clearlist;
+	//@FindBy(xpath= "//div[@id='wishlistView']/div[3]/a") public WebElement Clearlist;
 
 //	@FindBy(xpath= "//a[text()='Clear list']")
 //    public WebElement Clearlist;
 
-=======
+
 	@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
 	public WebElement Wishlist1;
 	@FindBy(xpath="(//a[@class='CrossIcon--ho5u3n cKXlGn cross-icon'])[1]")
@@ -40,6 +38,6 @@ public class WishListLoc {
 	
 	@FindBy(xpath= "//p[@class='NoProductsInfo--hfiv7x bqrwmG']")
     public static WebElement AssertWishlist;
->>>>>>> 8b13bc37926866fdedd285402c2ac9fdd39e83db
+
 	
 }

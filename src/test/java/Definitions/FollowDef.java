@@ -35,7 +35,7 @@ public class FollowDef {
 	@Then("Goes to Facebook page")
 	public void goes_to_facebook_page() {
 		String tab = login.changetab();
-		Assert.assertEquals(tab, "Lenskart | Facebook");
+		Assert.assertEquals(tab, "https://www.facebook.com/Lenskartindia");
 		
 	}
 	@When("Click on instagram icon")
@@ -48,7 +48,7 @@ public class FollowDef {
 	@Then("Goes to instagram page")
 	public void goes_to_instagram_page() {
 		String tab = login.changetab();
-		Assert.assertEquals(tab, "LENSKART (@lenskart) • Instagram photos and videos");
+		Assert.assertEquals(tab, "https://www.instagram.com/lenskart/");
 	}
 
 	@When("Click on twitter icon")
@@ -62,7 +62,7 @@ public class FollowDef {
 	@Then("Goes to twitter page")
 	public void goes_to_twitter_page() {
 		String tab = login.changetab();
-		Assert.assertEquals(tab, "Profile / X");
+		Assert.assertEquals(tab, "https://twitter.com/lenskartME");
 	}
 
 

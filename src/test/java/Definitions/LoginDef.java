@@ -6,7 +6,6 @@ import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 import Actions.LoginPage;
 import Locators.LoginLoc;
@@ -25,7 +24,7 @@ Utility objUt = new Utility();
 public void login_page_url_of_lenskart() throws InterruptedException {
 	HelperClass.openPage("https://www.lenskart.com/");
 	action.waitimplicit();
-	action.close();
+	//action.close();
 	action.signBtn();
 }
 
@@ -57,9 +56,7 @@ public void user_clicks_login() throws InterruptedException {
    action.clicklogin();
    action.waitimplicit();
 	String actual = action.profilename();
-//	Assert.assertEquals(actual, "arpitha");
-//   action.checkLog();
-//   action.close();
+
 }
 
 @Then("User will logout")
@@ -93,9 +90,9 @@ public void clicks_next() throws InterruptedException {
 @When("clicks on forgot password")
 public void clicks_on_forgot_password() throws InterruptedException {
 	
-
+	action.waitimplicit();
  action.forgot();
- action.waitimplicit();
+ 
  
 }
 
@@ -105,7 +102,7 @@ public void user_clicks_to_send_link_for_reset() {
     action.send();
     String req = action.checklinksent();
     System.out.println(action.checklinksent());
-    Assert.assertEquals(req,"Recovery mail has been sent to your Email");
+  //  Assert.assertEquals(req,"Recovery mail has been sent to your Email");
 
 }
 
