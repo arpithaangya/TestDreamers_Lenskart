@@ -30,6 +30,11 @@ public void user_clicks_the_eyeglasses_category() {
    
 }
 
+
+//
+//@When("User clicks product")
+//public void user_clicks_product() {
+//}
 @When("User clicks product")
 public void user_clicks_product() {
 	wishaction.Specs();
