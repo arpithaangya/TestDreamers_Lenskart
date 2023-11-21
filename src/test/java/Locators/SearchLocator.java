@@ -18,8 +18,9 @@ public class SearchLocator {
 	
 	@FindBy(xpath= "//select[@class='SelectBox--1nxe8z9 eSxoXu']")
 	public WebElement searchsort;
-	
+
 	@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
+
 	public WebElement product;
 	
 	@FindBy(xpath= "//button[@id='btn-primary']")

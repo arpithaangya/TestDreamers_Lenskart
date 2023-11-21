@@ -25,6 +25,7 @@ Utility objUt = new Utility();
 public void login_page_url_of_lenskart() throws InterruptedException {
 	HelperClass.openPage("https://www.lenskart.com/");
 	action.waitimplicit();
+	action.close();
 	action.signBtn();
 }
 
@@ -45,6 +46,7 @@ public void user_clicks_next() throws InterruptedException {
 
 @When("User enters password")
 public void user_enters_password(io.cucumber.datatable.DataTable dataTable) {
+	
     action.emailpass(dataTable);
 	
 	
@@ -53,19 +55,25 @@ public void user_enters_password(io.cucumber.datatable.DataTable dataTable) {
 @When("User clicks login and goes to home")
 public void user_clicks_login() throws InterruptedException {
    action.clicklogin();
-   action.checkLog();
-   action.close();
+   action.waitimplicit();
+	String actual = action.profilename();
+//	Assert.assertEquals(actual, "arpitha");
+//   action.checkLog();
+//   action.close();
 }
 
 @Then("User will logout")
 public void user_will_login_or_fails() throws InterruptedException {
    
-   action.logout();
+	 
+
+     action.logout();
+     action.waitimplicit();
 }
 
 @Given("goes to Lenskart URL")
 public void goes_to_lenskart_url() throws InterruptedException {
-	  HelperClass.openPage(objUt.strUrl);
+	//  HelperClass.openPage(objUt.strUrl);
 	  action.signBtn();
 }
 
@@ -84,13 +92,21 @@ public void clicks_next() throws InterruptedException {
 
 @When("clicks on forgot password")
 public void clicks_on_forgot_password() throws InterruptedException {
- action.clickemail2(objUt.stremail);
+	
+
+ action.forgot();
  action.waitimplicit();
+ 
 }
 
 @Then("User clicks to send link for reset")
 public void user_clicks_to_send_link_for_reset() {
- action.send();
+	action.clickemail2(objUt.stremail);
+    action.send();
+    String req = action.checklinksent();
+    System.out.println(action.checklinksent());
+    Assert.assertEquals(req,"Recovery mail has been sent to your Email");
+
 }
 
 

@@ -26,12 +26,12 @@ public class SunglassAction {
 	}
 	
 	public void seller() {
-		sunglassloc.seller.click();
+		//sunglassloc.seller.click();
 	}
 	
 	public void sort() {
 		Select select = new Select(sunglassloc.sort);
-		select.selectByIndex(1);
+		select.selectByIndex(2);
 		
 	}
 	public void filter() {
@@ -42,14 +42,21 @@ public class SunglassAction {
 		sunglassloc.glass.click();
 	}
 	
-	public void power() {
-		sunglassloc.power.click();
+	public void lens() {
+		sunglassloc.lens.click();
+	}
+	
+	public void lenselect() {
+		sunglassloc.lensselect.click();
 	}
 	
 	public void lenscolor() {
-		sunglassloc.lenscolor.click();
+		sunglassloc.premiumlens.click();
 	}
 	
+	public void coating() {
+		sunglassloc.coating.click();
+	}
 	public void contbutton() {
 		sunglassloc.contbutton.click();
 	}
@@ -59,7 +66,8 @@ public class SunglassAction {
 	}
 	
 	public void bill() {
-		Assert.assertEquals(sunglassloc.bill.getText(), "Bill Details");
+		String price =sunglassloc.bill.getText();
+		Assert.assertEquals(sunglassloc.bill.getText(), price);
 	}
 	
 

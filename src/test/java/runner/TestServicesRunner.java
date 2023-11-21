@@ -8,9 +8,12 @@ import io.cucumber.junit.CucumberOptions;
  
 @RunWith(Cucumber.class)
 
-@CucumberOptions(tags="",features="src\\test\\resources\\Feature\\Services.feature",glue="Definitions",plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+@CucumberOptions(tags="",features="src\\test\\resources\\Feature\\Wishlist.feature",glue="Definitions",plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
  
 
 public class TestServicesRunner {
 
 }
+
+
+//src\\test\\resources\\Feature\\Wishlist.feature
