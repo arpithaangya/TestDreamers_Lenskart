@@ -33,7 +33,7 @@ public class SearchDefition {
 		
 		
 		HelperClass.openPage(obj.strUrl);
-		log.info("launched the url");
+		this.log.info("launched the url");
 	}
 	
 
