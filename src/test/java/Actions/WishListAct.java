@@ -37,9 +37,6 @@ public class WishListAct {
 	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
       HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
 
-<<<<<<< HEAD
-       
-=======
->>>>>>> 74cb3350e7e15184125c4b5524098b7575f3bafa
+
 	}
 }
