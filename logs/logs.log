@@ -17,6 +17,11 @@
 [INFO ] 2023-11-21 12:20:53.811 [TestNG-PoolService-1] LoginDef - Driver setUp Successfully
 [INFO ] 2023-11-21 12:20:53.928 [TestNG-PoolService-0] LoginDef - Driver setUp Successfully
 [INFO ] 2023-11-21 12:31:14.709 [main] LoginDef - Driver setUp Successfully
+<<<<<<< HEAD
 [INFO ] 2023-11-21 15:14:19.352 [main] LoginDef - Driver setUp Successfully
 [INFO ] 2023-11-21 15:18:36.944 [main] LoginDef - Driver setUp Successfully
 [INFO ] 2023-11-21 15:30:02.642 [main] LoginDef - Driver setUp Successfully
+=======
+[INFO ] 2023-11-21 15:01:21.887 [main] LoginDef - Driver setUp Successfully
+>>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+[INFO ] 2023-11-21 15:38:39.538 [main] LoginDef - Driver setUp Successfully
