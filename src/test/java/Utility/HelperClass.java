@@ -4,9 +4,15 @@ package Utility;
 import java.time.Duration;
 import org.apache.logging.log4j.*;
 
-<<<<<<< HEAD
+
 
 import org.openqa.selenium.JavascriptExecutor;
+
+
+import org.openqa.selenium.JavascriptExecutor;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -14,12 +20,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-=======
-import org.openqa.selenium.JavascriptExecutor;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -41,16 +41,13 @@ public class HelperClass {
 	public static JavascriptExecutor jse ;
 
 	public static Logger log ;
-<<<<<<< HEAD
+
+
+
 
 	public final static int TIMEOUT =10;
-
 	HelperClass(){
 
-=======
-	public final static int TIMEOUT =10;
-	HelperClass(){
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 		driver = new ChromeDriver();
 		
 		wait = new WebDriverWait(driver,Duration.ofSeconds(TIMEOUT));
@@ -59,7 +56,7 @@ public class HelperClass {
 		action = new Actions(driver);
 		jse = (JavascriptExecutor)driver;
 		log = LogManager.getLogger(LoginDef.class);
-<<<<<<< HEAD
+
      
 
 //		driver = new EdgeDriver();
@@ -68,8 +65,7 @@ public class HelperClass {
 //		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 //		driver.manage().window().maximize();
 //		log = LogManager.getLogger(SearchDefition.class);
-=======
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+
 
 	}
 

@@ -79,19 +79,19 @@
 			<version>7.14.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-<<<<<<< HEAD
+
 		<!--<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.14.0</version>
 		</dependency>-->
-=======
+
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.14.0</version>
 		</dependency>
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -100,21 +100,11 @@
 			<version>4.14.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<<<<<<< HEAD
-		
-		<!--<dependency>
-=======
-		<dependency>
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.8.0</version>
-			<scope>test</scope>
-<<<<<<< HEAD
-		</dependency> -->
-=======
-		</dependency>
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+
+	
+
+
+
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -196,8 +186,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-<<<<<<< HEAD
-=======
-  
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+
 </project>
