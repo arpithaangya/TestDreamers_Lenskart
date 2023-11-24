@@ -39,7 +39,7 @@ public class LoginLoc {
 	
 	
 	@FindBy(id="wzrk-cancel") public WebElement no;
-//	@FindBy(xpath="//div[@class=\"SubText--1ad6igv gwDPxG\"]") public WebElement linkassert;
+
 	
 	@FindBy(xpath="//*[@id=\"next\"]/div[2]/div/div/div/div/div/div[2]/div[2]") public WebElement linkassert;
 	

@@ -20,42 +20,12 @@ public class SearchLocator {
 	public WebElement searchsort;
 
 
-
-	//@FindBy(xpath= "//a[@href='/john-jacobs-jj-e13553-c5-eyeglasses.html']")
-<<<<<<< HEAD
-
-	
-
-
-=======
-=======
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
-
-	//@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
-
-
-<<<<<<< HEAD
->>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
-
-
-		
-//	@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
-
-<<<<<<< HEAD
-
-	@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
-
-
-=======
-
-	//@FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
+    @FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
+    public WebElement product;
 
 
 
-=======
->>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
->>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
-	public WebElement product;
+
 	
 	@FindBy(xpath= "//button[@id='btn-primary']")
 	public WebElement lens;
