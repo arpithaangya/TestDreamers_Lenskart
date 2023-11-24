@@ -15,18 +15,21 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
 import Locators.LoginLoc;
+import Locators.RegisterPageLocators;
 import Utility.HelperClass;
 import Utility.Utility;
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 public class LoginPage {
 	
 	LoginLoc loc;
 	Utility util = new Utility();
 	WebDriver driver = HelperClass.getDriver();
+	RegisterPageLocators registerPageLocators = null;
 	Actions  action = new Actions(HelperClass.getDriver());
 		public LoginPage() {
 			this.loc = new LoginLoc();
+			this.registerPageLocators = new RegisterPageLocators();
 			PageFactory.initElements(HelperClass.getDriver(), loc);
 		}
 
@@ -80,11 +83,12 @@ public class LoginPage {
 			}
 			
       public void close() throws InterruptedException {
-//				Alert alert = driver.switchTo().alert();
-//				alert.dismiss();
-				
-				   loc.no.click();
-		    	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    	  driver.navigate().refresh();
+    	  if(registerPageLocators.popup.isDisplayed()) {
+  			registerPageLocators.nothanks.click();
+  		}
+  		//registerPageLocators.signup.click();
+				 
 			}
 			
 	  public void clicklogin() {
@@ -124,21 +128,16 @@ public class LoginPage {
 		public void insta() {
 			loc.instagram.click();
 		}
-		public String changetab() {
-			
-		String title = null;
-       String parentWindow= HelperClass.getDriver().getWindowHandle();
 		
-			Set<String> allWindows = HelperClass.getDriver().getWindowHandles();
-					for(String curWindow : allWindows){
-						if(curWindow != parentWindow)
-						{
-							HelperClass.getDriver().switchTo().window(curWindow);
-							title = driver.getTitle();
-						}
-						
-					}
-
+	public String changetab() {
+			
+	  String title = null;
+       String parentWindow= HelperClass.getDriver().getWindowHandle();
+      Set<String> allWindows = driver.getWindowHandles();
+		for (String tab : HelperClass.getDriver().getWindowHandles()) {
+			HelperClass.getDriver().switchTo().window(tab);
+			title = driver.getCurrentUrl();
+	    }
 			HelperClass.getDriver().switchTo().window(parentWindow);
            return title;
 		}

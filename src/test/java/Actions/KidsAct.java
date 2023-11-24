@@ -16,14 +16,17 @@ public class KidsAct {
 
 	KidsLoc loc = null;
 	Follow follow = null;
+	LoginPage log = null;
 	Actions  action = new Actions(HelperClass.getDriver());
 	public KidsAct() {
 		this.loc = new KidsLoc();
 		this.follow = new Follow();
+		this.log = new LoginPage();
 		PageFactory.initElements(HelperClass.getDriver(),loc);
 	}
 		
 		public void Kids() {
+			
 			action.moveToElement(loc.Kids).build().perform();
 			
 		}

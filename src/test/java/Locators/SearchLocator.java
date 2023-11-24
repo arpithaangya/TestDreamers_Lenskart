@@ -19,8 +19,11 @@ public class SearchLocator {
 	@FindBy(xpath= "//select[@class='SelectBox--1nxe8z9 eSxoXu']")
 	public WebElement searchsort;
 
+
     @FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
     public WebElement product;
+
+
 
 
 	
@@ -42,7 +45,7 @@ public class SearchLocator {
 	@FindBy(xpath= "//button[@id='button']")
 	public WebElement outcheck;
 	
-	@FindBy(xpath= "//div[@class='CartStyles__HeadingText-sc-14bvp3n-6 bFjeHX']")
+	@FindBy(xpath= "//div[@class='BreakUp--1nl0c86 gNLysE']//child::div[@class='Text--v1spdc dCEHEJ']//following-sibling::div")
 	public  WebElement asbill;
 	
 

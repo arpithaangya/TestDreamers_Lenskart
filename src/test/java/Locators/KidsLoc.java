@@ -8,7 +8,7 @@ public class KidsLoc {
 	@FindBy(xpath="//*[@id=\"lrd11\"]") public WebElement Kids;
 	
 	@FindBy(xpath="(//a[@class=\"KidsCard--1qau3jo lerxIJ getGaData\"])[3]") public WebElement Sunglass;
-//	@FindBy(xpath="(//div[@class=\"ImageContainer--1o9gw5f hUliud\"])[1]") public WebElement select;
+
 	
 	@FindBy(xpath="//h1[@class=\"Title--1mf9vro hPTYyn\"]") public WebElement head;
 	

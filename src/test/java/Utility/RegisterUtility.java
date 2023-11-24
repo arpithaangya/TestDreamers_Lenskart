@@ -19,7 +19,7 @@ public class RegisterUtility {
 	}
 	
 	public void registerData() {
-		File file = new File("C:\\Users\\dmulinti\\TestDreamers_Lenskart\\src\\test\\resources\\registerData.properties");
+		File file = new File("src\\test\\resources\\registerData.properties");
 		
 		FileInputStream fileInput = null;
 		try {

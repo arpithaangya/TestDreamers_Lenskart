@@ -1,4 +1,301 @@
 [INFO ] 2023-11-20 18:20:16.381 [main] LoginDef - Driver setUp Successfully
+<<<<<<< HEAD
+[INFO ] 2023-11-21 10:10:49.990 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:13:47.823 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:14:43.086 [main] SearchDefition - launched the url
+[INFO ] 2023-11-21 10:16:49.459 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:18:47.788 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:20:33.717 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:21:28.978 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:23:14.789 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:25:28.264 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:27:17.949 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:27:59.981 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:33:14.744 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:34:27.178 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:35:46.860 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:39:45.839 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:42:30.674 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:55:24.240 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 11:02:35.712 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 11:02:51.065 [main] SearchDefition - launched the url
+[INFO ] 2023-11-21 11:03:07.774 [main] SearchDefition - filtering the frame
+[INFO ] 2023-11-21 11:03:17.091 [main] SearchDefition - switched to another tab
+[INFO ] 2023-11-21 11:03:17.100 [main] SearchDefition - switched to another tab
+[INFO ] 2023-11-21 11:04:50.968 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 11:05:02.658 [main] SearchDefition - launched the url
+[INFO ] 2023-11-21 11:05:09.749 [main] SearchDefition - filtering the frame
+[INFO ] 2023-11-21 11:05:10.635 [main] SearchDefition - switched to another tab
+[INFO ] 2023-11-21 11:05:10.652 [main] SearchDefition - switched to another tab
+[INFO ] 2023-11-21 11:05:24.444 [main] SearchDefition - click the contiue
+[INFO ] 2023-11-21 11:05:29.132 [main] SearchDefition - asserting the price
+[INFO ] 2023-11-21 11:14:32.448 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 11:14:47.009 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 11:14:58.009 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 11:14:58.010 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 11:14:59.752 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 11:14:59.777 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 11:52:34.660 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 11:52:58.520 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 11:55:42.092 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 11:58:57.920 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:00:58.405 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:05:04.361 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:06:18.281 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:07:00.557 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 12:07:14.281 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:07:14.462 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 12:07:17.250 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:07:17.251 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:07:53.289 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 12:08:11.092 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:08:11.116 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 12:08:11.761 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:08:11.762 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:14:00.542 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 12:14:15.809 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:14:15.832 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 12:14:16.497 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:14:16.498 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:14:51.729 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:15:05.523 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:15:05.523 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 12:15:07.750 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:15:07.765 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:15:19.336 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:15:27.732 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-21 12:15:28.793 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:15:28.811 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:15:28.829 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:16:57.879 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 12:17:13.251 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:17:13.277 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 12:17:13.956 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:17:13.957 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:17:49.807 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:18:01.162 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:18:01.163 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 12:18:02.296 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:18:02.310 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:18:25.701 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:18:36.888 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-21 12:18:37.977 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:18:37.995 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:18:38.016 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:18:44.552 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-21 12:18:48.108 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-21 12:23:24.823 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 12:23:39.635 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:23:39.703 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 12:23:41.188 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:23:41.189 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:24:01.456 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:24:15.035 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:24:15.036 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 12:24:17.099 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:24:17.110 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:25:07.966 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:25:18.366 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-21 12:25:19.200 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:25:19.215 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:25:19.229 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:27:06.605 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-21 12:27:08.457 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-21 12:27:57.764 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 12:28:14.473 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:28:14.494 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 12:28:15.562 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:28:15.563 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:28:47.307 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:29:00.505 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:29:00.506 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 12:29:01.863 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:29:01.875 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:29:18.544 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:29:31.114 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-21 12:29:32.166 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:29:32.191 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:29:32.212 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:29:42.870 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-21 12:29:45.858 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-21 12:32:02.092 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:32:04.152 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:32:07.964 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:33:16.527 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[DEBUG] 2023-11-21 12:33:31.335 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:33:32.041 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 12:33:37.156 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:33:37.157 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:34:01.523 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:36:20.250 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:36:20.251 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 12:36:20.666 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:36:21.317 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:36:23.091 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:36:30.147 [TestNG-PoolService-1] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:36:33.092 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:39:45.450 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:43:08.175 [TestNG-PoolService-1] LoginDef - launched the url
+[INFO ] 2023-11-21 12:43:08.175 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:43:08.175 [TestNG-PoolService-2] LoginDef - launched the url
+[INFO ] 2023-11-21 12:43:54.651 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:43:54.652 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 12:43:56.439 [TestNG-PoolService-1] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:43:56.460 [TestNG-PoolService-1] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:45:39.850 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:46:16.308 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:46:28.879 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:46:28.879 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:47:06.780 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:47:06.780 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 12:47:07.950 [TestNG-PoolService-1] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 12:48:32.348 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:48:35.519 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:48:36.189 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:49:18.872 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[DEBUG] 2023-11-21 12:49:25.610 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 12:49:28.670 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 12:50:56.729 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 12:52:42.507 [TestNG-PoolService-2] LoginDef - launched the url
+[INFO ] 2023-11-21 12:52:42.507 [TestNG-PoolService-1] LoginDef - launched the url
+[INFO ] 2023-11-21 12:52:42.509 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 12:53:26.051 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 12:53:26.051 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 13:00:35.018 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:00:35.018 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:01:40.924 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:01:40.927 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[DEBUG] 2023-11-21 13:02:12.849 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:02:14.357 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:02:15.370 [TestNG-PoolService-2] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-21 13:02:20.137 [TestNG-PoolService-2] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:02:20.158 [TestNG-PoolService-2] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:02:42.906 [TestNG-PoolService-2] SunglassDefinition - click the contiue
+[DEBUG] 2023-11-21 13:02:46.402 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:02:46.403 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:02:47.100 [TestNG-PoolService-2] SunglassDefinition - asserting the price
+[INFO ] 2023-11-21 13:06:26.867 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:06:26.865 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:06:26.880 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:07:11.814 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:07:11.818 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:07:24.105 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 13:07:24.106 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 13:11:05.450 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:11:06.259 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:11:08.377 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:12:38.118 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:12:38.118 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[DEBUG] 2023-11-21 13:13:16.584 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:13:16.829 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:13:39.082 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 13:13:39.082 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+[DEBUG] 2023-11-21 13:13:39.228 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:13:39.229 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:14:08.345 [TestNG-PoolService-1] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:22:27.301 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 13:22:48.017 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:22:48.041 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 13:22:48.767 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:22:48.770 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:23:04.320 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:23:20.447 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 13:23:20.448 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 13:23:22.069 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:23:22.083 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:23:33.921 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:23:41.129 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-21 13:23:42.140 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:23:42.160 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:23:42.179 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:23:47.071 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-21 13:23:49.216 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-21 13:24:26.471 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 13:24:41.997 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:24:42.022 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 13:24:42.621 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:24:42.622 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:25:13.720 [main] SunglassDefinition - Driver setUp Successfully
+[DEBUG] 2023-11-21 13:25:29.579 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:25:29.601 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 13:25:30.231 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:25:30.232 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:25:46.095 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:25:58.141 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 13:25:58.142 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 13:25:59.611 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:25:59.623 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:26:11.257 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:26:18.993 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-21 13:26:20.045 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:26:20.062 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:26:20.082 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:26:25.256 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-21 13:26:28.296 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-21 13:28:41.530 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:28:42.698 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:28:47.973 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:29:50.624 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[DEBUG] 2023-11-21 13:29:55.953 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:29:56.243 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-11-21 13:30:00.294 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-11-21 13:30:00.295 [TestNG-PoolService-0] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-11-21 13:30:25.823 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 13:30:55.117 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 13:30:55.118 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-21 13:31:23.766 [TestNG-PoolService-1] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-21 13:52:15.580 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:52:15.592 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 13:52:15.821 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:17:43.580 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:17:43.580 [TestNG-PoolService-1] LoginDef - launched the url
+[INFO ] 2023-11-21 15:17:57.117 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 15:25:00.061 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:36:36.535 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-21 15:36:57.649 [TestNG-PoolService-1] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 15:36:57.649 [TestNG-PoolService-2] SunglassDefinition - launched the url
+[INFO ] 2023-11-21 15:37:23.154 [TestNG-PoolService-1] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-21 15:37:23.155 [TestNG-PoolService-1] SunglassDefinition - if page changed with range page then we have use this function
+=======
+<<<<<<< HEAD
+[INFO ] 2023-11-21 10:09:16.092 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:12:38.989 [main] SearchDefition - Driver setUp Successfully
+[INFO ] 2023-11-21 10:17:32.789 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 10:27:08.292 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 10:31:44.570 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 10:34:29.707 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 11:19:59.743 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 11:22:22.950 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 11:30:29.158 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 11:46:13.993 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 11:54:16.823 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 11:59:50.732 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 12:06:30.099 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 12:30:28.359 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 12:47:56.920 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 12:53:47.609 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:04:24.417 [TestNG-PoolService-5] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:04:30.965 [TestNG-PoolService-2] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:15:40.954 [TestNG-PoolService-3] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:15:41.116 [TestNG-PoolService-2] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:15:41.171 [TestNG-PoolService-1] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:15:41.174 [TestNG-PoolService-0] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:15:41.490 [TestNG-PoolService-4] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:15:42.136 [TestNG-PoolService-5] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:20:08.741 [TestNG-PoolService-1] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:21:52.573 [TestNG-PoolService-1] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:23:58.460 [TestNG-PoolService-1] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:24:00.882 [TestNG-PoolService-0] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:26:31.346 [TestNG-PoolService-1] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:32:25.495 [TestNG-PoolService-0] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 13:37:38.157 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 14:57:41.013 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 15:12:32.261 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 15:17:57.860 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 15:32:26.357 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 15:38:38.097 [TestNG-PoolService-0] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 15:44:16.921 [main] LoginDef - Driver setUp Successfully
+=======
 [INFO ] 2023-11-21 10:25:17.981 [main] LoginDef - Driver setUp Successfully
 [INFO ] 2023-11-21 10:30:46.853 [main] LoginDef - Driver setUp Successfully
 [INFO ] 2023-11-21 10:33:30.048 [main] LoginDef - Driver setUp Successfully
@@ -24,4 +321,182 @@
 =======
 [INFO ] 2023-11-21 15:01:21.887 [main] LoginDef - Driver setUp Successfully
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
+<<<<<<< HEAD
 [INFO ] 2023-11-21 15:38:39.538 [main] LoginDef - Driver setUp Successfully
+=======
+>>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
+>>>>>>> 74d008040ea20555eb231cdf972e61d1986441eb
+[INFO ] 2023-11-22 11:36:56.343 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 11:38:26.694 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 11:43:02.917 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 11:43:42.788 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:09:07.157 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:09:50.419 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:09:57.508 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-22 14:09:59.933 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:09:59.948 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:09:59.969 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:09:59.991 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:10:00.030 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:10:00.045 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:10:00.084 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:10:00.102 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:10:04.107 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-22 14:10:08.412 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-22 14:15:18.904 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:16:01.633 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:19:08.675 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:19:08.944 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:19:09.478 [TestNG-PoolService-3] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:19:09.949 [TestNG-PoolService-4] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:19:10.594 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:19:53.413 [TestNG-PoolService-4] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:22:53.188 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:22:53.548 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:22:55.629 [TestNG-PoolService-3] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:23:38.838 [TestNG-PoolService-3] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:23:38.838 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:25:12.410 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:25:12.443 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:25:12.782 [TestNG-PoolService-3] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:25:13.193 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:25:42.264 [TestNG-PoolService-3] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:28:01.722 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:28:21.499 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:29:49.870 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 14:30:14.051 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 14:30:20.293 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-22 14:30:21.168 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:30:21.186 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:30:21.209 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:30:21.234 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:30:21.252 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 14:30:24.997 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-22 14:30:27.216 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-22 15:18:26.514 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:18:55.426 [TestNG-PoolService-3] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 15:18:55.443 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:20:12.258 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:20:26.940 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:28:42.628 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:30:30.994 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:32:05.283 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:35:17.034 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:44:11.296 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:45:34.388 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:47:08.899 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:48:10.920 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:51:16.655 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:53:15.520 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:54:24.817 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:54:43.614 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:56:52.368 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:57:50.205 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 15:59:03.010 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:01:32.111 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:02:40.581 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 16:02:50.688 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-22 16:02:50.689 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-22 16:02:52.225 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.251 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.270 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.284 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.302 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.319 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.332 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.351 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.364 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.392 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.405 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:02:52.422 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:14:32.030 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:15:43.958 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 16:15:53.494 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-22 16:15:53.495 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-22 16:15:55.068 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.085 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.107 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.126 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.150 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.166 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.189 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.208 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.225 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.251 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.264 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:15:55.276 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:17:39.201 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:18:38.657 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 16:18:58.036 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-22 16:18:58.036 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-22 16:19:00.017 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.035 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.053 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.069 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.086 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.100 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.114 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.130 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.149 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.166 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.192 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:00.218 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:19:41.116 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:21:27.940 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 16:21:45.793 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-22 16:21:45.794 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-22 16:21:46.974 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.005 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.031 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.050 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.069 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.089 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.107 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.124 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.148 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.164 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.179 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:21:47.200 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:22:27.890 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:24:01.186 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 16:24:16.919 [main] SunglassDefinition - iterate the product list for 20
+[INFO ] 2023-11-22 16:24:16.920 [main] SunglassDefinition - if page changed with range page then we have use this function
+[INFO ] 2023-11-22 16:24:18.149 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.168 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.186 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.204 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.222 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.246 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.261 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.273 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.294 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.315 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.328 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:24:18.339 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 16:25:46.892 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:25:46.901 [TestNG-PoolService-1] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:27:54.643 [TestNG-PoolService-2] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:27:57.242 [TestNG-PoolService-0] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:27:57.447 [TestNG-PoolService-4] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:29:03.765 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:31:41.384 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:33:43.437 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:53:26.749 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 16:56:40.563 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 17:08:43.009 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 17:09:28.341 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 17:11:44.596 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 17:12:33.128 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 17:12:43.868 [main] SunglassDefinition - filtering the frame
+[INFO ] 2023-11-22 17:12:45.116 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 17:12:45.129 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 17:12:45.141 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 17:12:45.162 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 17:12:45.175 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 17:12:45.195 [main] SunglassDefinition - switched to another tab
+[INFO ] 2023-11-22 17:12:49.840 [main] SunglassDefinition - click the contiue
+[INFO ] 2023-11-22 17:12:52.713 [main] SunglassDefinition - asserting the price
+[INFO ] 2023-11-22 17:14:02.828 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 17:14:50.799 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-22 17:17:57.837 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 17:18:47.010 [main] SunglassDefinition - launched the url
