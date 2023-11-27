@@ -3,7 +3,7 @@ package Definitions;
 import java.awt.AWTException;
 import java.util.Set;
 
-import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -26,20 +26,21 @@ public class SearchDefition {
 	SearchAction sa = new SearchAction();
 	Utility obj = new Utility();
 	String strUrl;
-	Logger log ;
+	String strinput;
+	HelperClass base;
 
 	@Given("launching the lenskart")
 	public void launching_the_lenskart() {
 		
 		
 		HelperClass.openPage(obj.strUrl);
-		log.info("launched the url");
+		base.log.info("launched the url");
 	}
 	
 
 	@When("given the product name to search")
 	public void given_the_product_name_to_search() {
-	    sa.setSearch("eyeglass");
+	    sa.setSearch(obj.strinput);
 	}
 	
 	@When("given the enter")
@@ -61,7 +62,7 @@ public class SearchDefition {
 	@Given("given the filter for frame type")
 	public void given_the_filter_for_frame_type() {
 	    sa.frametype();
-	    log.info("filtering the frame");
+	   base.log.info("filtering the frame");
 	    
 	}
 
@@ -82,7 +83,7 @@ public class SearchDefition {
 		Set<String> allWindows = HelperClass.getDriver().getWindowHandles();
 		for (String curWindow : allWindows) {
 			HelperClass.getDriver().switchTo().window(curWindow);
-			log.info("switched to another tab");
+			base.log.info("switched to another tab");
 		}
 	}
 
@@ -109,7 +110,7 @@ public class SearchDefition {
 	@When("user click the continue")
 	public void user_click_the_continue() {
 	      sa.cont();
-	      log.info("click the contiue");
+	      base. log.info("click the contiue");
 	}
 
 	@When("user click the checkout glass")
@@ -120,7 +121,7 @@ public class SearchDefition {
 	@Then("asserting the product user selected with details")
 	public void asserting_the_product_user_selected_with_details() {
 		sa.asbill();
-		log.info("asserting the price");
+		base.log.info("asserting the price");
 	}
 }
 

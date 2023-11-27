@@ -9,7 +9,12 @@
 
   <name>LenskartProject</name>
   <url>http://maven.apache.org</url>
-  <properties>
+
+
+
+
+
+<properties>
  
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium.version>4.13.0</selenium.version>
@@ -78,7 +83,8 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>7.14.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+
+
 
 		<!--<dependency>
 			<groupId>io.cucumber</groupId>
@@ -101,9 +107,12 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 
-	
-
-
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.8.0</version>
+			<scope>test</scope>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>

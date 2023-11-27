@@ -3,13 +3,8 @@ package Actions;
 
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
-import java.time.Duration;
-
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import Locators.EyeGlassesLoc;
 import Locators.WishListLoc;
 import Utility.HelperClass;
 
@@ -40,20 +35,6 @@ public class WishListAct {
 	public void Clearlist() {
 
 
-
-
-
-//		HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
-//		action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
-//
-//	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
-//      HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
-
-
-
-       wishlistLocators.Clearlist.click();
-       HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
-	   action.moveToElement(wishlistLocators.Clearlist).click().build().perform();;
 
 
 

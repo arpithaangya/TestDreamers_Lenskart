@@ -1,6 +1,8 @@
 package Actions;
 
 
+import java.util.Set;
+
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,6 +14,7 @@ import Utility.HelperClass;
 public class EyeGlassesAct {
 	EyeGlassesLoc eyeglassesLocators = null;
 	Actions  action = new Actions(HelperClass.getDriver());
+	String parentWindow= HelperClass.getDriver().getWindowHandle();
 	public EyeGlassesAct() {
 		
 	this.eyeglassesLocators = new EyeGlassesLoc();
@@ -41,16 +44,22 @@ public class EyeGlassesAct {
 			eyeglassesLocators. AddWishlist.click();
 		}
 		public void ClickWishlist() {
-			eyeglassesLocators.ClickWishlist.click();
+			//eyeglassesLocators.ClickWishlist.click();
 		}
 		public void ClickProduct() {
+			//HelperClass.wait.until(ExpectedConditions.elementToBeClickable(eyeglassesLocators.ClickProduct));
 			eyeglassesLocators.ClickProduct.click();
-			 HelperClass.jse.executeScript("arguments[0].click()",eyeglassesLocators.ClickProduct);
+//			 HelperClass.jse.executeScript("arguments[0].click()",eyeglassesLocators.ClickProduct);
 		}
-		public void  Buynow() throws InterruptedException {
-			Thread.sleep(5000);
+		public void  Buynow() {
+//			Thread.sleep(5000);
+			//HelperClass.wait.until(ExpectedConditions.elementToBeClickable(eyeglassesLocators.Buynow));
+			Set<String> allWindows = HelperClass.getDriver().getWindowHandles();
+			for(String curWindow : allWindows){
+				HelperClass.getDriver().switchTo().window(curWindow);
+			}
 			eyeglassesLocators.Buynow.click();
-  		 HelperClass.jse.executeScript("arguments[0].click()",eyeglassesLocators.Buynow);
+		// HelperClass.jse.executeScript("arguments[0].click()",eyeglassesLocators.Buynow);
 		}
 //		public String getTotalpayable() {
 //			return eyeglassesLocators.Totalpayable.getText();

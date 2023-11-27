@@ -15,9 +15,9 @@ public class RegisterPageActions {
 		PageFactory.initElements(HelperClass.getDriver(),registerPageLocators);
 	}
 	public void clicksignup() {
-//		if(registerPageLocators.popup.isDisplayed()) {
-//			registerPageLocators.nothanks.click();
-//		}
+		if(registerPageLocators.popup.isDisplayed()) {
+			registerPageLocators.nothanks.click();
+		}
 		registerPageLocators.signup.click();
 	}
 	public void setfirstName(String firstName) {

@@ -3,13 +3,23 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="Runner.TestRunner">
+=======
+      <class name="runner.TestRunner">
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
           <include name="tearDownClass"/>
+<<<<<<< HEAD
           <include name="runScenario" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- Runner.TestRunner -->
+=======
+        </methods>
+      </class> <!-- runner.TestRunner -->
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

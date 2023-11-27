@@ -12,7 +12,7 @@ public class Utility {
 
 public String strUrl;
 public String stremail;
-
+public String strinput;
 	public Utility() {
 		login2();
 	}
@@ -33,6 +33,7 @@ public String stremail;
 
 		strUrl = prop.getProperty("url");
 		stremail = prop.getProperty("email");
+		strinput =prop.getProperty("input");
 
 
 }

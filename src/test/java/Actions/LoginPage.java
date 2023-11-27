@@ -15,6 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
 import Locators.LoginLoc;
+import Locators.RegisterPageLocators;
 import Utility.HelperClass;
 import Utility.Utility;
 //import junit.framework.Assert;
@@ -24,9 +25,11 @@ public class LoginPage {
 	LoginLoc loc;
 	Utility util = new Utility();
 	WebDriver driver = HelperClass.getDriver();
+	RegisterPageLocators registerPageLocators = null;
 	Actions  action = new Actions(HelperClass.getDriver());
 		public LoginPage() {
 			this.loc = new LoginLoc();
+			this.registerPageLocators = new RegisterPageLocators();
 			PageFactory.initElements(HelperClass.getDriver(), loc);
 		}
 
@@ -62,7 +65,7 @@ public class LoginPage {
 		}
 		
 		public void checkLog() {
-			String name = loc.profilename.getText();
+			String name = loc.profile.getText();
 			System.out.println(name);
 		
 		}
@@ -72,7 +75,7 @@ public class LoginPage {
 		}
 		public void logout() throws InterruptedException {
 				
-			    action.moveToElement(loc.profilename).build().perform();
+			    action.moveToElement(loc.profile).build().perform();
 			    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			    action.moveToElement(loc.logout).click().build().perform();		
 			    
@@ -81,10 +84,10 @@ public class LoginPage {
 			
       public void close() throws InterruptedException {
     	  driver.navigate().refresh();
-    	  if(loc.popup.isDisplayed()) {
-    		  loc.no.click();
-	    	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-  		  }
+    	  if(registerPageLocators.popup.isDisplayed()) {
+  			registerPageLocators.nothanks.click();
+  		}
+  		//registerPageLocators.signup.click();
 				 
 			}
 			

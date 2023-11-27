@@ -7,6 +7,7 @@ import java.util.Map;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import org.testng.Assert;
 import Actions.LoginPage;
 import Locators.LoginLoc;
 import Utility.HelperClass;
@@ -55,8 +56,8 @@ public void user_enters_password(io.cucumber.datatable.DataTable dataTable) {
 public void user_clicks_login() throws InterruptedException {
    action.clicklogin();
    action.waitimplicit();
-	String actual = action.profilename();
-
+   String actual = action.profilename();
+   
 }
 
 @Then("User will logout")
@@ -91,17 +92,19 @@ public void clicks_next() throws InterruptedException {
 public void clicks_on_forgot_password() throws InterruptedException {
 	
 	action.waitimplicit();
- action.forgot();
+   action.forgot();
  
  
 }
 
 @Then("User clicks to send link for reset")
-public void user_clicks_to_send_link_for_reset() {
+public void user_clicks_to_send_link_for_reset() throws InterruptedException {
 	action.clickemail2(objUt.stremail);
     action.send();
     String req = action.checklinksent();
-    System.out.println(action.checklinksent());
+   // System.out.println(action.checklinksent());
+    Thread.sleep(2000);
+    Assert.assertEquals(req,"Recovery mail has been sent to your Email");
   //  Assert.assertEquals(req,"Recovery mail has been sent to your Email");
 
 }
