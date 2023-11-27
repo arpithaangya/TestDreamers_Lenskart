@@ -322,6 +322,15 @@
 [INFO ] 2023-11-21 15:01:21.887 [main] LoginDef - Driver setUp Successfully
 >>>>>>> de7150bb296cb19b445d889bde7e5e4bc7f70ddb
 <<<<<<< HEAD
+<<<<<<< HEAD
+[INFO ] 2023-11-21 16:13:13.890 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 16:43:15.484 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 16:50:47.461 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-21 17:18:03.575 [main] LoginDef - Driver setUp Successfully
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
 [INFO ] 2023-11-21 15:38:39.538 [main] LoginDef - Driver setUp Successfully
 =======
 >>>>>>> 691e2b04321874d781a60ed60670c038f6603ad6
@@ -500,3 +509,15 @@
 [INFO ] 2023-11-22 17:14:50.799 [main] SunglassDefinition - launched the url
 [INFO ] 2023-11-22 17:17:57.837 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-22 17:18:47.010 [main] SunglassDefinition - launched the url
+<<<<<<< HEAD
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+[INFO ] 2023-11-24 16:19:44.983 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-24 16:50:28.333 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-24 16:54:57.766 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-24 16:59:01.286 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-24 17:00:42.290 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-24 17:02:09.716 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-24 17:04:35.172 [main] LoginDef - Driver setUp Successfully
+[INFO ] 2023-11-24 17:06:07.394 [main] LoginDef - Driver setUp Successfully
+=======
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1

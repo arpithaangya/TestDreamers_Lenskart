@@ -24,7 +24,7 @@ public class AccountAction {
 		}
 	
 	public void pop() {
-	 loc.alertsign.click();
+	 //loc..click();
 	}
 	
 	public void signbtn() {
@@ -61,7 +61,7 @@ public class AccountAction {
 //		}
 	}
 	public void profileset() {
-            act.moveToElement(loc.profilename).click().build().perform();
+            //act.moveToElement(loc.profile.click().build().perform();
             
 	}
 	public void myorder() {

@@ -65,7 +65,7 @@ public class LoginPage {
 		}
 		
 		public void checkLog() {
-			String name = loc.profilename.getText();
+			String name = loc.profile.getText();
 			System.out.println(name);
 		
 		}
@@ -75,7 +75,7 @@ public class LoginPage {
 		}
 		public void logout() throws InterruptedException {
 				
-			    action.moveToElement(loc.profilename).build().perform();
+			    action.moveToElement(loc.profile).build().perform();
 			    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			    action.moveToElement(loc.logout).click().build().perform();		
 			    
