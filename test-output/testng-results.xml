@@ -3,6 +3,7 @@
   <reporter-output>
   </reporter-output>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <suite started-at="2023-11-21T16:42:06 IST" name="Suite" finished-at="2023-11-21T16:43:16 IST" duration-ms="70154">
     <groups>
       <group name="cucumber">
@@ -23,6 +24,14 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@367ffa75]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+=======
+  <suite started-at="2023-11-22T15:19:46 IST" name="Default suite" finished-at="2023-11-22T15:20:42 IST" duration-ms="56509">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@367ffa75]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
     <test started-at="2023-11-22T15:19:46 IST" name="Default test" finished-at="2023-11-22T15:20:42 IST" duration-ms="56509">
       <class name="runner.TestRunner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@367ffa75]" started-at="2023-11-22T15:19:46 IST" name="setUpClass" finished-at="2023-11-22T15:19:46 IST" duration-ms="579" status="PASS">
@@ -30,6 +39,9 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@4cc76301]]>
+<<<<<<< HEAD
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+=======
 >>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
               </value>
             </param>
@@ -38,7 +50,11 @@
           </reporter-output>
         </test-method> <!-- setUpClass -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b40ff9c]" started-at="2023-11-21T16:42:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T16:43:15 IST" duration-ms="66574" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@367ffa75]" started-at="2023-11-22T15:19:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-22T15:20:41 IST" duration-ms="54333" status="FAIL">
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
 =======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@367ffa75]" started-at="2023-11-22T15:19:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-22T15:20:41 IST" duration-ms="54333" status="FAIL">
 >>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
@@ -50,6 +66,7 @@
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <![CDATA["Check AboutUs in lenskart application"]]>
               </value>
@@ -109,6 +126,8 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: java.lang.reflect.InvocationTargetException
 =======
+=======
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
                 <![CDATA["Login page"]]>
               </value>
             </param>
@@ -137,6 +156,9 @@ Command: [bfb5773238a0ffaef2271b5d5b6cc8ea, sendKeysToElement {id=26083E880DB5B6
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60225/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Element: [[ChromeDriver: chrome on windows (bfb5773238a0ffaef2271b5d5b6cc8ea)] -> name: emailOrPhone]
 Session ID: bfb5773238a0ffaef2271b5d5b6cc8ea
+<<<<<<< HEAD
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+=======
 >>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -190,6 +212,73 @@ at ✽.User enters username(file:///C:/Users/osaravanakarthikeyan/TestDreamers_L
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@367ffa75]" started-at="2023-11-22T15:19:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-22T15:20:42 IST" duration-ms="55802" status="FAIL">
+<<<<<<< HEAD
+=======
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Clicking the services option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature of lenskart"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/buying-guide" target="_blank" class="styles__LinkWrapper-sc-pmo5cs-17 fGOGkl">...</a> is not clickable at point (93, 884). Other element would receive the click: <div class="ScreenContainer--n07ovf eilMaA" style="opacity: 1;">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfb5773238a0ffaef2271b5d5b6cc8ea, clickElement {id=26083E880DB5B6536E050393ADFE8D40_element_150}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60225/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bfb5773238a0ffaef2271b5d5b6cc8ea)] -> xpath: //a[text()='Buying Guide']]
+Session ID: bfb5773238a0ffaef2271b5d5b6cc8ea]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/buying-guide" target="_blank" class="styles__LinkWrapper-sc-pmo5cs-17 fGOGkl">...</a> is not clickable at point (93, 884). Other element would receive the click: <div class="ScreenContainer--n07ovf eilMaA" style="opacity: 1;">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfb5773238a0ffaef2271b5d5b6cc8ea, clickElement {id=26083E880DB5B6536E050393ADFE8D40_element_150}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60225/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bfb5773238a0ffaef2271b5d5b6cc8ea)] -> xpath: //a[text()='Buying Guide']]
+Session ID: bfb5773238a0ffaef2271b5d5b6cc8ea
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+at Actions.ServicesAct.Buyingguide(ServicesAct.java:35)
+at Definitions.ServicesDef.user_clicks_the_buying_guide_option(ServicesDef.java:37)
+at ✽.User clicks the buying guide option(file:///C:/Users/osaravanakarthikeyan/TestDreamers_Lenskart/src/test/resources/Feature/Services.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@367ffa75]" started-at="2023-11-22T15:19:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-22T15:20:21 IST" duration-ms="34987" status="FAIL">
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
           <params>
             <param index="0">
               <value>
@@ -431,6 +520,9 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [16f47aa5fb2b22eae86527146ec7ec18, findElement {using=xpath, value=//*[@id="header"]/div[2]/div/div[3]/div[2]/span[1]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\OSARAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60220/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 16f47aa5fb2b22eae86527146ec7ec18
+<<<<<<< HEAD
+>>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+=======
 >>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
