@@ -37,15 +37,13 @@ public class EyeGlassesAct {
 		public void frameshape() {
 			eyeglassesLocators.frameshape.click();
 		}
-//		public void framecolour() {
-//			eyeglassesLocators.framecolour.click();
-//		}
+
 		public void  AddWishlist() {
 			eyeglassesLocators. AddWishlist.click();
 		}
-		public void ClickWishlist() {
+//		public void ClickWishlist() {
 			//eyeglassesLocators.ClickWishlist.click();
-		}
+//		}
 		public void ClickProduct() {
 			//HelperClass.wait.until(ExpectedConditions.elementToBeClickable(eyeglassesLocators.ClickProduct));
 			eyeglassesLocators.ClickProduct.click();

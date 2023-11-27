@@ -38,25 +38,22 @@ public class HelperClass {
 	public static WebDriverWait wait;
 	private static HelperClass helperClass;
     public static JavascriptExecutor jse ;
-<<<<<<< HEAD
 
-=======
 	public static Logger log ;
->>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
 
 	public static Actions action=null;
 	
 
 
 
-<<<<<<< HEAD
-	public static Logger log ;
-=======
->>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+
+	
+
+
 
 
 	public final static int TIMEOUT =10;
-	HelperClass(){
+	public HelperClass(){
 
 		driver = new ChromeDriver();
         jse = (JavascriptExecutor)driver;
@@ -69,7 +66,7 @@ public class HelperClass {
 		action = new Actions(driver);
 		jse = (JavascriptExecutor)driver;
 		log = LogManager.getLogger(LoginDef.class);
-<<<<<<< HEAD
+
 
 
 		
@@ -82,7 +79,6 @@ public class HelperClass {
 
      
 
-=======
 
 
 		
@@ -95,7 +91,7 @@ public class HelperClass {
 
      
 
->>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+
 
 	}
 

@@ -16,41 +16,33 @@ public class WishListAct {
 	this.wishlistLocators = new WishListLoc();
 	   PageFactory.initElements(HelperClass.getDriver(),wishlistLocators);
     }
-	public void Specs() {
-       wishlistLocators.Specs.click();
+	public void Eyeglasses() {
+       wishlistLocators.Eyeglasses.click();
 	}
 	public void Wishlist() {
 	   wishlistLocators.Wishlist.click();
 	}
-	public void Specs1() {
-	       wishlistLocators.Specs2.click();
+	public void  Wishlist1() {
+	       wishlistLocators.Wishlist1.click();
 	}
-	public void Wishlist1() {
-	       wishlistLocators.Specs.click();
+	public void Clickproduct1() {
+	       wishlistLocators.Clickproduct1.click();
 	}
 	public void Removeproduct1() {
 	       wishlistLocators.Removeproduct1.click();
 	}
 	
-	public void Clearlist() {
-
-
-
-<<<<<<< HEAD
-
-
+//	public void Clearlist() {
+//
+//
+//
 //	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
 //      HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
-
-
-=======
-	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
-      HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
-
-
-
-
-
->>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
-	}
+//
+//
+//
+//
+//
+//
+//	}
 }
