@@ -20,6 +20,7 @@ public class LoginDef {
 WebDriver driver;
 LoginLoc loc = new LoginLoc();
 LoginPage action = new LoginPage();
+HelperClass base;	
 Utility objUt = new Utility();
 @Given("Login page URL of Lenskart")
 public void login_page_url_of_lenskart() throws InterruptedException {
@@ -33,7 +34,7 @@ public void login_page_url_of_lenskart() throws InterruptedException {
 public void user_enters_username(io.cucumber.datatable.DataTable dataTable) {
 
 	action.emaildata(dataTable);
-		
+	base.log.info("Email id is entered");
 }
 
 @When("user clicks next")
@@ -48,7 +49,7 @@ public void user_clicks_next() throws InterruptedException {
 public void user_enters_password(io.cucumber.datatable.DataTable dataTable) {
 	
     action.emailpass(dataTable);
-	
+    base.log.info("Password is entered");
 	
 }
 
@@ -93,7 +94,7 @@ public void clicks_on_forgot_password() throws InterruptedException {
 	
 	action.waitimplicit();
    action.forgot();
- 
+   base.log.info("Clicks on forgot password");
  
 }
 
@@ -102,11 +103,11 @@ public void user_clicks_to_send_link_for_reset() throws InterruptedException {
 	action.clickemail2(objUt.stremail);
     action.send();
     String req = action.checklinksent();
-   // System.out.println(action.checklinksent());
+    base.log.info("User gets mail to change password");
     Thread.sleep(2000);
-    Assert.assertEquals(req,"Recovery mail has been sent to your Email");
-  //  Assert.assertEquals(req,"Recovery mail has been sent to your Email");
-
+  
+    Assert.assertEquals(req, "Recovery mail has been sent to your Email");
+   
 }
 
 

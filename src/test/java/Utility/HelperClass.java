@@ -38,21 +38,13 @@ public class HelperClass {
 	public static WebDriverWait wait;
 	private static HelperClass helperClass;
     public static JavascriptExecutor jse ;
-<<<<<<< HEAD
 
-=======
-	public static Logger log ;
->>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+
 
 	public static Actions action=null;
-	
 
-
-
-<<<<<<< HEAD
 	public static Logger log ;
-=======
->>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+
 
 
 	public final static int TIMEOUT =10;
@@ -69,20 +61,10 @@ public class HelperClass {
 		action = new Actions(driver);
 		jse = (JavascriptExecutor)driver;
 		log = LogManager.getLogger(LoginDef.class);
-<<<<<<< HEAD
 
-
-		
-//		jse = (JavascriptExecutor)driver;
-//		wait = new WebDriverWait(driver,Duration.ofSeconds(TIMEOUT));
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
-//		driver.manage().window().maximize();
-//		log = LogManager.getLogger(SearchDefition.class);
-//		log = LogManager.getLogger(SunglassDefinition.class);
 
      
 
-=======
 
 
 		
@@ -95,7 +77,7 @@ public class HelperClass {
 
      
 
->>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+
 
 	}
 

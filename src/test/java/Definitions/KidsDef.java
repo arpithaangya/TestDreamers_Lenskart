@@ -8,7 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class KidsDef {
-	
+	HelperClass base;
 	KidsAct action = new KidsAct();
 	LoginPage login = new LoginPage();
 	//log = LogManager.getLogger(KidsAct.class);
@@ -28,13 +28,15 @@ public class KidsDef {
 	    action.sun();
 	    login.waitimplicit();
 	    action.clicksortby();
+	    base.log.info("Sorts by new");
 	}
 
 	@Then("click on first one")
 	public void click_on_first_one() {
 	
 	   action.select();
-	   
+	   base.log.info("Clicks the first one");
+	   action.change();
 	}
 
 
