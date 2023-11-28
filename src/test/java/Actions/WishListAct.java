@@ -32,6 +32,17 @@ public class WishListAct {
 	       wishlistLocators.Removeproduct1.click();
 	}
 	
+<<<<<<< HEAD
+	public void Clearlist() {
+
+
+
+
+	  HelperClass.wait.until(ExpectedConditions.elementToBeClickable(wishlistLocators.Clearlist));
+      HelperClass.jse.executeScript("arguments[0].click()",wishlistLocators.Clearlist);
+
+	}
+=======
 //	public void Clearlist() {
 //
 //
@@ -45,4 +56,5 @@ public class WishListAct {
 //
 //
 //	}
+>>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8
 }

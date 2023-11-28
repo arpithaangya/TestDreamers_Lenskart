@@ -521,6 +521,132 @@
 [INFO ] 2023-11-24 17:06:07.394 [main] LoginDef - Driver setUp Successfully
 =======
 >>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+<<<<<<< HEAD
+[INFO ] 2023-11-27 12:00:46.476 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:04:28.095 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:11:28.540 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:23:40.378 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:26:18.066 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:33:23.707 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:35:00.152 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:38:59.047 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:47:13.420 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 12:59:51.316 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 14:13:31.912 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 14:30:58.256 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 14:37:46.412 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:04:38.930 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:06:50.319 [main] SunglassDefinition - launched the url
+[INFO ] 2023-11-27 15:08:30.621 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:12:47.343 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:15:45.673 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:21:26.955 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:22:30.484 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 15:22:43.202 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 15:22:53.674 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 15:26:48.695 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:27:26.452 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 15:27:27.130 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 15:30:53.107 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:32:12.941 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 15:32:25.295 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 15:33:49.810 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 15:33:50.183 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 15:34:05.464 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 15:34:06.621 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 15:34:44.671 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-27 15:38:38.414 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:40:54.208 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 15:41:08.001 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 15:41:29.849 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 15:41:51.080 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 15:41:51.438 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 15:42:05.047 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 15:42:06.354 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 15:42:33.009 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-27 15:44:07.385 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:45:08.703 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 15:45:21.456 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 15:45:33.174 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 15:45:42.858 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 15:45:43.177 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 15:45:53.109 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 15:45:53.820 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 15:46:23.116 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-27 15:51:40.997 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:52:46.898 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 15:52:47.284 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 15:53:20.522 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:54:23.872 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 15:54:36.623 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 15:54:54.751 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 15:55:09.343 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 15:55:09.760 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 15:55:14.176 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 15:55:17.046 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 15:59:03.856 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:59:54.584 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 16:00:08.534 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 16:00:23.180 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 16:00:39.526 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 16:00:40.207 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 16:00:51.550 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 16:00:53.126 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 16:01:11.074 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-27 16:01:11.892 [main] SunglassDefinition - User gets mail to change password
+[INFO ] 2023-11-27 16:10:23.474 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 16:10:48.283 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 16:11:00.311 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 16:11:16.604 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 16:11:55.152 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 16:11:55.854 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 16:12:13.737 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 16:12:14.467 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 16:12:39.556 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-27 16:12:39.960 [main] SunglassDefinition - User gets mail to change password
+[INFO ] 2023-11-27 17:25:29.606 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 17:25:57.152 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 17:26:30.016 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 17:26:43.606 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 17:27:03.882 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 17:27:05.317 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 17:27:12.332 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 17:27:15.686 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 17:32:00.411 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 17:33:18.978 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 17:33:31.889 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 17:33:45.378 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 17:35:08.686 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 17:35:09.695 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 17:35:28.969 [main] SunglassDefinition - Email id is entered
+[INFO ] 2023-11-27 17:35:30.674 [main] SunglassDefinition - Password is entered
+[INFO ] 2023-11-27 17:35:47.713 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-27 17:35:48.058 [main] SunglassDefinition - User gets mail to change password
+[INFO ] 2023-11-27 17:47:25.879 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 17:52:00.679 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-27 17:54:16.138 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-27 17:56:57.812 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-27 17:59:51.231 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-27 17:59:57.005 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-27 18:03:29.613 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-27 18:03:30.194 [main] SunglassDefinition - User gets mail to change password
+[INFO ] 2023-11-28 11:07:31.584 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 11:08:28.005 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-28 11:10:43.482 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-28 11:12:53.947 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-28 11:14:28.915 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-28 11:14:29.593 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-28 11:18:39.902 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-28 11:18:40.335 [main] SunglassDefinition - User gets mail to change password
+[INFO ] 2023-11-28 12:42:53.260 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 12:44:56.421 [main] SunglassDefinition - Facebook is clicked 
+[INFO ] 2023-11-28 12:47:10.381 [main] SunglassDefinition - Instagram  is clicked 
+[INFO ] 2023-11-28 12:49:07.985 [main] SunglassDefinition - Twitter  is clicked 
+[INFO ] 2023-11-28 12:50:29.955 [main] SunglassDefinition - Sorts by new
+[INFO ] 2023-11-28 12:50:32.201 [main] SunglassDefinition - Clicks the first one
+[INFO ] 2023-11-28 12:54:24.657 [main] SunglassDefinition - Clicks on forgot password
+[INFO ] 2023-11-28 12:54:25.665 [main] SunglassDefinition - User gets mail to change password
+=======
 [INFO ] 2023-11-27 14:49:48.084 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-27 14:51:01.940 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-27 14:52:32.187 [main] SunglassDefinition - Driver setUp Successfully
@@ -530,3 +656,4 @@
 [INFO ] 2023-11-27 16:32:52.766 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-27 16:37:48.759 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-27 16:59:07.548 [main] SunglassDefinition - Driver setUp Successfully
+>>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8

@@ -83,13 +83,16 @@ public class LoginPage {
 			}
 			
       public void close() throws InterruptedException {
-    	  driver.navigate().refresh();
-    	  if(registerPageLocators.popup.isDisplayed()) {
-  			registerPageLocators.nothanks.click();
+    	 
+    	  Thread.sleep(1000);
+    	  if(loc.no.isDisplayed()) {
+    		  loc.no.click();
+    	  }
+    	  
   		}
-  		//registerPageLocators.signup.click();
+
 				 
-			}
+		
 			
 	  public void clicklogin() {
 				loc.login.click();

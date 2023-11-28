@@ -54,5 +54,8 @@ public class KidsAct {
 			return loc.select.getText();
 			
 		}
-		
+		public void change() {
+			String parentWindow= HelperClass.getDriver().getWindowHandle();
+			HelperClass.getDriver().switchTo().window(parentWindow);
+		}
 }

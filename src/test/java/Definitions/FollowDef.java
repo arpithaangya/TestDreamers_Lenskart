@@ -13,6 +13,7 @@ import io.cucumber.java.en.When;
 public class FollowDef {
 	KidsAct action = new KidsAct();
 	LoginPage login = new LoginPage();
+	HelperClass base;
 	@Given("Home page of Lenskart")
 	public void home_page_of_lenskart() throws InterruptedException {
 		HelperClass.openPage("https://www.lenskart.com/");
@@ -36,6 +37,7 @@ public class FollowDef {
 	public void goes_to_facebook_page() {
 		String tab = login.changetab();
 		Assert.assertEquals(tab, "https://www.facebook.com/Lenskartindia");
+		base.log.info("Facebook is clicked ");
 		
 	}
 	@When("Click on instagram icon")
@@ -49,6 +51,7 @@ public class FollowDef {
 	public void goes_to_instagram_page() {
 		String tab = login.changetab();
 		Assert.assertEquals(tab, "https://www.instagram.com/lenskart/");
+		base.log.info("Instagram  is clicked ");
 	}
 
 	@When("Click on twitter icon")
@@ -63,6 +66,7 @@ public class FollowDef {
 	public void goes_to_twitter_page() {
 		String tab = login.changetab();
 		Assert.assertEquals(tab, "https://twitter.com/lenskartME");
+		base.log.info("Twitter  is clicked ");
 	}
 
 
