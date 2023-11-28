@@ -8,11 +8,7 @@ public class EyeGlassesLoc {
 	@FindBy(xpath = "//a[@id='lrd1']")
 	public WebElement eyeglasses;
 
-<<<<<<< HEAD
-=======
-//	@FindBy(xpath = "//*[@id=\"next\"]/div[2]/div/div[1]/div[2]/div/div/div[3]/a/div")
-//	public WebElement Viewrange;
->>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8
+
 
     @FindBy(xpath = "//select[@class='SelectBox--j2i0rr fIEUVK']")
 	public WebElement sortby;

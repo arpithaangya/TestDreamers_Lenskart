@@ -14,14 +14,14 @@ public class WishListLoc {
 	
 	@FindBy(xpath= "(//*[name()='svg' and @class='wishlist-icon'])[1]")
 	public WebElement Wishlist;
-<<<<<<< HEAD
 
 
-	@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
-=======
+
+	//@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
+
     
 	@FindBy(xpath= "(//*[name()='svg' and @class='wishlist-icon'])[2]")
->>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8
+
 	public WebElement Wishlist1;
 	
 	@FindBy(xpath="(//div[@class='ProductDetailsContainer--13hincy hTVnrF'])[1]")
