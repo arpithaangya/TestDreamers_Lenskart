@@ -8,38 +8,34 @@ public class EyeGlassesLoc {
 	@FindBy(xpath = "//a[@id='lrd1']")
 	public WebElement eyeglasses;
 
+<<<<<<< HEAD
+=======
+//	@FindBy(xpath = "//*[@id=\"next\"]/div[2]/div/div[1]/div[2]/div/div/div[3]/a/div")
+//	public WebElement Viewrange;
+>>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8
 
-
-	@FindBy(xpath = "//*[@id=\"next\"]/div[2]/div/div[1]/div[2]/div/div/div[3]/a/div")
-	public WebElement Viewrange;
-
-
-	
-	@FindBy(xpath = "//select[@class='SelectBox--1nxe8z9 eSxoXu']")
+    @FindBy(xpath = "//select[@class='SelectBox--j2i0rr fIEUVK']")
 	public WebElement sortby;
 	
-	@FindBy(xpath = "//div[@class='ImageTextSection--htigz9 frbuWE']//child::span[contains(text(),'Full Rim')]")
+	@FindBy(xpath = "//img[@class='ImageItem--3d2a48 ghDkGd']")
 	public WebElement frametype;
 	
-	@FindBy(xpath = "//*[@id=\"filter-item-image-5\"]/div/div[1]/img")
+	@FindBy(xpath = "(//img[@class='ImageItem--3d2a48 ghDkGd'])[9]")
 	public WebElement frameshape;
-	
-//	@FindBy(xpath="//*[@id=\"frame_color_id\"]/div[2]/div/div[1]/label/div")
-//	public WebElement framecolour;
-//	
-	@FindBy(xpath="(//div[@class=\"WishlistContainer--1jtgryj idWPeU\"])[1]")
+
+	@FindBy(xpath="(//*[name()=\"svg\" and @class='wishlist-icon'])[1]")
 	public WebElement AddWishlist;
 	
-	@FindBy(xpath="//div[@class='ActionLink--q9i2mm hBIltA'][3]")
-	public WebElement ClickWishlist;
+//	@FindBy(xpath="//div[@class='ActionLink--q9i2mm hBIltA'][3]")
+//	public WebElement ClickWishlist;
 	
-	@FindBy(xpath="//div[@class='ItemContainer--zw71mv ikRDxY']")
+	@FindBy(xpath="//div[@class='ProductDetailsContainer--13hincy hTVnrF']")
 	public WebElement ClickProduct;
 	
 	@FindBy(xpath="//button[@id='btn-primary'][1]")
 	public WebElement Buynow;
 	
-	@FindBy(xpath = "//div[@class='Text--v1spdc dCEHEJ'][2]")
+	@FindBy(xpath = "//div[@class='Text--173l7i4 zkxId'][2]")
 	public static WebElement Totalpayable;
 }
 	

@@ -521,6 +521,7 @@
 [INFO ] 2023-11-24 17:06:07.394 [main] LoginDef - Driver setUp Successfully
 =======
 >>>>>>> 1c8d6ff8bd7b206051960586326b115c322c70d1
+<<<<<<< HEAD
 [INFO ] 2023-11-27 12:00:46.476 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-27 12:04:28.095 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-27 12:11:28.540 [main] SunglassDefinition - Driver setUp Successfully
@@ -645,3 +646,14 @@
 [INFO ] 2023-11-28 12:50:32.201 [main] SunglassDefinition - Clicks the first one
 [INFO ] 2023-11-28 12:54:24.657 [main] SunglassDefinition - Clicks on forgot password
 [INFO ] 2023-11-28 12:54:25.665 [main] SunglassDefinition - User gets mail to change password
+=======
+[INFO ] 2023-11-27 14:49:48.084 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 14:51:01.940 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 14:52:32.187 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 14:53:35.092 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 14:56:22.017 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 15:16:59.932 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 16:32:52.766 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 16:37:48.759 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-27 16:59:07.548 [main] SunglassDefinition - Driver setUp Successfully
+>>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8

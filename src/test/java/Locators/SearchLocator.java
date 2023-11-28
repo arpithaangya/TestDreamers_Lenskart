@@ -21,12 +21,25 @@ public class SearchLocator {
 
 
 
+<<<<<<< HEAD
 
     @FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
     public WebElement product;
 
 
 
+=======
+    @FindBy(xpath= "(//div[@class='ProductContainer--jvh5co geQZLk'])[1]")
+    public WebElement product;
+
+
+
+
+
+
+
+
+>>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8
 	
 	@FindBy(xpath= "//button[@id='btn-primary']")
 	public WebElement lens;
