@@ -8,15 +8,12 @@ import Utility.HelperClass;
 public class EyeGlassesLoc {
 
 
-<<<<<<< HEAD
 	@FindBy(xpath= "//a[@id='lrd1']")
 	public WebElement eyeglass;
-=======
+
 	@FindBy(xpath = "//a[@id='lrd1']")
 	public WebElement eyeglasses;
 
-
->>>>>>> ddb3b16058ab02af7dd7fb7ec82dbf6aaa1ae8f9
 
     @FindBy(xpath = "//select[@class='SelectBox--j2i0rr fIEUVK']")
 	public WebElement sortby;
