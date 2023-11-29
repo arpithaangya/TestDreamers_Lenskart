@@ -13,11 +13,20 @@ public class WishListLoc {
 
 
 
+<<<<<<< HEAD
 
 
     
 	@FindBy(xpath= "(//*[name()='svg' and @class='wishlist-icon'])[2]")
     public WebElement Wishlist1;
+=======
+	//@FindBy(xpath= "//*[name()='svg' and @class='wishlist-icon']")
+
+    
+	@FindBy(xpath= "(//*[name()='svg' and @class='wishlist-icon'])[2]")
+
+	public WebElement Wishlist1;
+>>>>>>> ddb3b16058ab02af7dd7fb7ec82dbf6aaa1ae8f9
 	
 	@FindBy(xpath="(//div[@class='ProductDetailsContainer--13hincy hTVnrF'])[1]")
 	public WebElement Clickproduct1;
