@@ -1,23 +1,20 @@
 package Locators;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import Utility.HelperClass;
 
 public class EyeGlassesLoc {
 
 
-	@FindBy(xpath = "//a[@id='lrd1']")
-	public WebElement eyeglasses;
-
-<<<<<<< HEAD
-=======
-//	@FindBy(xpath = "//*[@id=\"next\"]/div[2]/div/div[1]/div[2]/div/div/div[3]/a/div")
-//	public WebElement Viewrange;
->>>>>>> 80a3dedf51b71eb76abe6b4fbe94021c07574fe8
+	@FindBy(xpath= "//a[@id='lrd1']")
+	public WebElement eyeglass;
 
     @FindBy(xpath = "//select[@class='SelectBox--j2i0rr fIEUVK']")
 	public WebElement sortby;
 	
-	@FindBy(xpath = "//img[@class='ImageItem--3d2a48 ghDkGd']")
+	@FindBy(xpath = "(//img[@class='ImageItem--3d2a48 ghDkGd'])[1]")
 	public WebElement frametype;
 	
 	@FindBy(xpath = "(//img[@class='ImageItem--3d2a48 ghDkGd'])[9]")
@@ -26,9 +23,7 @@ public class EyeGlassesLoc {
 	@FindBy(xpath="(//*[name()=\"svg\" and @class='wishlist-icon'])[1]")
 	public WebElement AddWishlist;
 	
-//	@FindBy(xpath="//div[@class='ActionLink--q9i2mm hBIltA'][3]")
-//	public WebElement ClickWishlist;
-	
+
 	@FindBy(xpath="//div[@class='ProductDetailsContainer--13hincy hTVnrF']")
 	public WebElement ClickProduct;
 	
