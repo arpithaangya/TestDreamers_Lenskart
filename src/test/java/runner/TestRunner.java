@@ -1,4 +1,4 @@
-package runner;
+package Runner;
 
 import org.testng.annotations.DataProvider;
 

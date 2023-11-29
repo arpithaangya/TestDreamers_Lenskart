@@ -44,41 +44,20 @@ public class HelperClass {
 
 	public static Actions action=null;
 
-<<<<<<< HEAD
-
-	
-
-
-
-	
-
-
-
-=======
-
-
-
->>>>>>> ddb3b16058ab02af7dd7fb7ec82dbf6aaa1ae8f9
-
-
 	public final static int TIMEOUT =10;
+	
 	public HelperClass(){
 
 		driver = new ChromeDriver();
         jse = (JavascriptExecutor)driver;
 
-		
-
-<<<<<<< HEAD
 		wait = new WebDriverWait(driver,Duration.ofSeconds(TIMEOUT));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 		driver.manage().window().maximize();
 		action = new Actions(driver);
 		jse = (JavascriptExecutor)driver;
 		log = LogManager.getLogger(LoginDef.class);
-=======
 
->>>>>>> ddb3b16058ab02af7dd7fb7ec82dbf6aaa1ae8f9
 
 
      
