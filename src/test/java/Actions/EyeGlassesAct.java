@@ -3,6 +3,7 @@ package Actions;
 
 import java.util.Set;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -19,14 +20,11 @@ public class EyeGlassesAct {
 		
 	this.eyeglassesLocators = new EyeGlassesLoc();
 		PageFactory.initElements(HelperClass.getDriver(),eyeglassesLocators);
-	}
+	    }
 		public void eyeglasses() {
-			eyeglassesLocators.eyeglasses.click();
+			eyeglassesLocators.eyeglass.click();
 		}
-//	    public void viewrange() {
-//			eyeglassesLocators.Viewrange.click();
-	    	
-//	    }
+
         public void sortby() {
 			Select select = new Select(eyeglassesLocators.sortby);
 			select.selectByIndex(2);
@@ -41,9 +39,7 @@ public class EyeGlassesAct {
 		public void  AddWishlist() {
 			eyeglassesLocators. AddWishlist.click();
 		}
-//		public void ClickWishlist() {
-			//eyeglassesLocators.ClickWishlist.click();
-//		}
+	
 		public void ClickProduct() {
 			//HelperClass.wait.until(ExpectedConditions.elementToBeClickable(eyeglassesLocators.ClickProduct));
 			eyeglassesLocators.ClickProduct.click();
@@ -63,7 +59,8 @@ public class EyeGlassesAct {
 //			return eyeglassesLocators.Totalpayable.getText();
 //		}
 // 
-	
+
+
 }
 
 

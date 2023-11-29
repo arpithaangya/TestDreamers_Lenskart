@@ -16,7 +16,7 @@ public class WishListDef {
 	WishListAct wishaction = new WishListAct();
 	EyeGlassesAct eyeaction = new EyeGlassesAct();
 
-HelperClass base = new HelperClass();
+HelperClass base ;
 
 @Given("User opens the lenskart Webpage")
 public void user_opens_the_lenskart_webpage() {

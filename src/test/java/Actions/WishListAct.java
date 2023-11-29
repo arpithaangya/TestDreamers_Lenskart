@@ -31,6 +31,10 @@ public class WishListAct {
 	public void Removeproduct1() {
 	       wishlistLocators.Removeproduct1.click();
 	}
+<<<<<<< HEAD
+	
+=======
+>>>>>>> ddb3b16058ab02af7dd7fb7ec82dbf6aaa1ae8f9
 
 
 }
