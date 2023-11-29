@@ -9,7 +9,6 @@ Feature: feature of lenskart
     And Filter the frame type by full rim
     And Filter the frame shape by aviator
     And User add the product to the wishlist
-    And user clicking the wishlist option 
     And user clicking the product in the wishlist
     And user clicking buy now option
     Then Asserting the Total payable

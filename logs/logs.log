@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [INFO ] 2023-11-29 11:28:59.064 [main] SunglassDefinition - Driver setUp Successfully
 [INFO ] 2023-11-29 11:40:38.673 [main] SunglassDefinition - Launching the URL
 [INFO ] 2023-11-29 11:41:22.992 [main] SunglassDefinition - Clicking the Eyeglasses
@@ -26,3 +27,43 @@
 [INFO ] 2023-11-29 12:04:26.477 [main] SunglassDefinition - launched the url
 [INFO ] 2023-11-29 12:05:03.019 [main] SunglassDefinition - iterate the product list for 20
 [INFO ] 2023-11-29 12:05:03.019 [main] SunglassDefinition - if page changed with range page then we have use this function
+=======
+[INFO ] 2023-11-28 15:21:56.017 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 15:22:34.850 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-28 15:24:13.789 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 15:24:51.961 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-28 15:28:33.835 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 15:29:05.988 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-28 15:31:54.735 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 15:32:28.320 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-28 16:02:23.023 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 16:02:55.842 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-28 16:07:27.545 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 16:07:58.716 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-28 16:09:51.071 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 16:46:14.466 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 16:50:20.574 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 16:55:20.433 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 17:14:02.498 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 17:17:42.608 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 17:20:58.695 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 17:23:08.759 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-28 17:23:19.251 [main] SunglassDefinition - Clicking the Eyeglasses
+[INFO ] 2023-11-28 17:23:19.762 [main] SunglassDefinition - Sorting the product High to Low
+[INFO ] 2023-11-28 17:23:20.445 [main] SunglassDefinition - Filtering the FrameType
+[INFO ] 2023-11-28 17:23:21.114 [main] SunglassDefinition - Filtering the frameshape
+[INFO ] 2023-11-28 17:23:21.655 [main] SunglassDefinition - Adding the product to the wishlist
+[INFO ] 2023-11-28 17:23:22.451 [main] SunglassDefinition - Clicking the product
+[INFO ] 2023-11-28 17:23:25.802 [main] SunglassDefinition - Clicking the buynow option
+[INFO ] 2023-11-28 17:23:26.980 [main] SunglassDefinition - Asserting the text
+[INFO ] 2023-11-29 10:27:29.029 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-29 10:28:02.521 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-29 10:31:18.425 [main] SunglassDefinition - Driver setUp Successfully
+[INFO ] 2023-11-29 10:31:25.325 [main] SunglassDefinition - Launching the URL
+[INFO ] 2023-11-29 10:31:29.105 [main] SunglassDefinition - clicking the Eyeglasses
+[INFO ] 2023-11-29 10:31:29.219 [main] SunglassDefinition - adding the product to wishlist
+[INFO ] 2023-11-29 10:31:29.294 [main] SunglassDefinition - adding the product1 to wishlist
+[INFO ] 2023-11-29 10:31:29.979 [main] SunglassDefinition - clicking the product1 in wishlist
+[INFO ] 2023-11-29 10:31:30.095 [main] SunglassDefinition - removing the product1 from wishlist
+[INFO ] 2023-11-29 10:31:30.095 [main] SunglassDefinition - Asserting the wishlist
+>>>>>>> f214e65fae1b8a8f2a4999f3728a4c716124f60a

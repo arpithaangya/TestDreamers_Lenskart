@@ -49,7 +49,7 @@ public class LoginPage {
 		}
 		
 		public void waitimplicit() throws InterruptedException {
-			 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+			 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		}
 		

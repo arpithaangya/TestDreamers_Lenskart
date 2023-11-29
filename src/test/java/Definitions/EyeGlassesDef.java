@@ -1,29 +1,26 @@
 package Definitions;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 
 import Actions.EyeGlassesAct;
+import Actions.LoginPage;
 import Locators.EyeGlassesLoc;
-import Locators.WishListLoc;
 import Utility.HelperClass;
-import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class EyeGlassesDef {
-	WebDriver driver;
 	EyeGlassesAct eyeaction = new EyeGlassesAct();
-	HelperClass base = new HelperClass();
-	
+	HelperClass base ;
+	LoginPage action = new LoginPage();
 	
 	@Given("User opens the lenskart webpage")
-	public void user_opens_the_lenskart_webpage() {
+	public void user_opens_the_lenskart_webpage() throws InterruptedException {
 		HelperClass.openPage("https://www.lenskart.com/");
-		base.log.info("Launching the URL");
+		//base.log.info("Launching the URL");
+		action.waitimplicit();
 	}
 
 	@When("User clicks the eyeglasses")
@@ -31,12 +28,7 @@ public class EyeGlassesDef {
 		eyeaction.eyeglasses();
 		base.log.info("Clicking the Eyeglasses");
 	}
-//
-//	@When("User clicks the view range")
-//	public void user_clicks_the_view_range() {
-//		 eyeaction.viewrange();
-//	 
-//	}
+
 
 	@When("User sorts the product by price:high to low")
 	public void user_sorts_the_product_by_price_high_to_low() {
@@ -57,21 +49,13 @@ public class EyeGlassesDef {
 		 base.log.info("Filtering the frameshape");
 	}
 
-//	@When("Filter the frame colour by silver")
-//	public void filter_the_frame_colour_by_silver() {
-//		 eyeaction.framecolour();
-//	}
 
 	@When("User add the product to the wishlist")
 	public void user_add_the_product_to_the_wishlist() {
 		 eyeaction.AddWishlist();
 		 base.log.info("Adding the product to the wishlist");
 	}
-
-//	@When("user clicking the wishlist option")
-//	public void user_clicking_the_wishlist_option() {
-		 //eyeaction.ClickWishlist();
-//	}
+	
 
 	@When("user clicking the product in the wishlist")
 	public void user_clicking_the_product_in_the_wishlist() {
