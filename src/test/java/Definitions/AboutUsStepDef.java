@@ -22,7 +22,7 @@ public class AboutUsStepDef {
 	@When("User goes to about us and clicks We are hiring")
 	public void user_goes_to_about_us_and_clicks_we_are_hiring() {
 		objAboutUs.clickweAreHiring();
-		System.out.println("Successfully clicked We Are Hiring");
+		System.out.println("hi");
 	}
 
 	@Then("User should be able to see the we are hiring page")
