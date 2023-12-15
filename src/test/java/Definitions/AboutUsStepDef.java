@@ -55,7 +55,7 @@ public class AboutUsStepDef {
 	@Then("User should be able to see the About us page")
 	public void user_should_be_able_to_see_the_about_us_page() {
 		Assert.assertTrue(objAboutUs.getaboutUsPageText().contains("GREAT QUALITY"));
-		System.out.println("Successfully opened About us page");
+		System.out.println("opened about page");
 	}
 
 	@When("User clicks lenskart coupons")
